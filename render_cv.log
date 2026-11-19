@@ -1,0 +1,75 @@
+[1mpandoc [22m
+  to: latex
+  output-file: cv-dmiranda.tex
+  standalone: true
+  pdf-engine: xelatex
+  variables:
+    graphics: true
+    tables: true
+  default-image-extension: pdf
+  number-sections: true
+  
+[1mmetadata[22m
+  documentclass: scrartcl
+  classoption:
+    - DIV=11
+    - numbers=noendperiod
+  papersize: letter
+  header-includes:
+    - '\KOMAoption{captions}{tableheading}'
+    - '\usepackage{pdfpages}'
+    - '\usepackage{fancyhdr}'
+    - '\usepackage{graphicx}'
+    - '\usepackage[top=2.5cm, bottom=5cm, left=2.5cm, right=2.5cm]{geometry}'
+    - '\pagestyle{fancy}'
+    - '\fancyhf{}'
+    - '\renewcommand{\headrulewidth}{0pt}'
+    - '\setlength{\headheight}{2.5cm}'
+    - '\fancyhead[C]{\includegraphics[width=\dimexpr\textwidth-2cm\relax,height=2.5cm]{encabezado.png}}'
+    - '\fancyfoot[C]{\thepage}'
+    - '\usepackage{xcolor}'
+  block-headings: true
+  editor: visual
+  lang: es
+  sansfont: Times New Roman
+  mainfont: Times New Roman
+  fontsize: 12pt
+  linkcolor: blue
+  urlcolor: blue
+  
+[1mpandoc [22m
+  to: html
+  output-file: cv-dmiranda.html
+  standalone: true
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  number-sections: true
+  toc: true
+  toc-depth: 3
+  
+[1mmetadata[22m
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: es
+  editor: visual
+  include-before:
+    - '<div style=''text-align: center;''><img src=''encabezado.png'' style=''width: 100%; max-height: 2.5cm;''></div>'
+  
+[1m[34m
+Rendering PDF[39m[22m
+[1m[34mrunning xelatex - 1[39m[22m
+  This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex)
+   restricted \write18 enabled.
+  entering extended mode
+  
+[1m[34mrunning xelatex - 2[39m[22m
+  This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex)
+   restricted \write18 enabled.
+  entering extended mode
+  
+
+Output created: cv-dmiranda.pdf
+

@@ -1,0 +1,186 @@
+---
+title: "Anexos al Currículo Normalizado"
+subtitle: "Prof. Daniel Miranda Fuenzalida - Solicitud de re-jerarquización a Profesor Asociado, Carrera Académica Ordinaria"
+lang: es
+format:
+  pdf:
+    pdf-engine: xelatex
+    sansfont: "Times New Roman"
+    mainfont: "Times New Roman"
+    fontsize: 12pt
+    toc: true
+    toc-title: "Índice"
+    linkcolor: blue
+    urlcolor: blue
+    header-includes:
+      - \usepackage{pdfpages}
+      - \usepackage{fancyhdr}
+      - \usepackage{graphicx}
+      - \usepackage[top=2cm, bottom=5cm, left=2cm, right=2cm]{geometry}
+      - \pagestyle{fancy}
+      - \fancyhf{}
+      - \renewcommand{\headrulewidth}{0pt}
+      - \setlength{\headheight}{2.5cm}
+      - \fancyhead[C]{\includegraphics[width=\dimexpr\textwidth-2cm\relax,height=2.5cm]{encabezado.png}}
+      - \fancyfoot[C]{\thepage}
+  html:
+    toc: true
+    include-before:
+      - "<div style='text-align: center;'><img src='encabezado.png' style='width: 100%; max-height: 2.5cm;'></div>"
+number-sections: true
+filters:
+  - highlight-dm.lua
+---
+
+# Presentación {-}
+
+Los documentos de respaldo asociados a esta postulación pueden revisarse directamente desde el CV, ya que se encuentran enlazados tanto en la [versión pdf](cv-dmiranda.pdf) como en la [versión web/html](cv-dmiranda.html). Los libros, capítulos y artículos se enlazan mediante su DOI o sitio de acceso, por lo que no se incluyen sus portadas. En este documento se presenta una selección de certificados y cartas, en el mismo orden del currículo y con una extensión inferior a 50 páginas, según lo solicitado por la Comisión de Evaluación Académica:
+
+- Certificados de grado y título
+- Distinciones (becas y premios)
+- Cronología laboral y nombramientos
+- Docencia, memorias y gestión universitaria
+- Proyectos de investigación
+- Selección de certificados de ponencias a congresos (2023-2025)
+- Extensión y divulgación
+- Antecedentes adicionales (comités editoriales, evaluaciones y participación en ICCS 2027)
+
+\newpage
+
+# Estudios realizados
+
+## Estudios superiores universitarios
+
+- Doctor en Sociología, Pontificia Universidad Católica de Chile (2018).
+- Magíster en Sociología, Pontificia Universidad Católica de Chile (2017).
+- Magíster en Psicología Social-Comunitaria, Pontificia Universidad Católica de Chile (2011).
+- Psicólogo y Licenciado en Psicología, Universidad de Talca (2007).
+
+```{=tex}
+\includepdf[pages={-}]{anexos-dm/estudios/Certificados.pdf}
+```
+
+# Distinciones obtenidas
+
+## Becas
+
+- Beca CONICYT de Doctorado Nacional (2015-2018).
+- Patrocinio de tesis doctoral, Centro de Estudios de Conflicto y Cohesión Social, COES (2014-2018).
+- Beca CONICYT de Magíster Nacional (2009-2010).
+
+```{=tex}
+\includepdf[pages={1}]{anexos-dm/distinciones/Conicyt-2015.pdf}
+\includepdf[pages={1}]{anexos-dm/distinciones/Patrocinio-COES.pdf}
+\includepdf[pages={1}]{anexos-dm/distinciones/Conicyt-2009.pdf}
+```
+
+## Premios
+
+- Outstanding Early Career Paper Award, Large Scale Cross National Studies SIG, Comparative and International Education Society (CIES), 2019.
+- Outstanding Early Career Paper Award, Citizenship and Democratic Education SIG, CIES, 2018.
+
+```{=tex}
+\includepdf[pages={1}]{anexos-dm/distinciones/Early-Career-LSCE.pdf}
+\includepdf[pages={1}]{anexos-dm/distinciones/Early-Career-CANDE.pdf}
+```
+
+# Cronología laboral
+
+- Nombramiento como académico del Departamento de Psicología, Facultad de Ciencias Sociales, Universidad de Chile (2024).
+- Investigador Asociado del Centro de Estudios de Conflicto y Cohesión Social, COES (2021).
+
+```{=tex}
+\includepdf[pages={1}]{anexos-dm/informacion-personal/Notificacion-Miranda.pdf}
+\includepdf[pages={1}]{anexos-dm/cronologia-laboral/Carta-Miranda-Asociado-COES.pdf}
+```
+
+# Actividades académicas
+
+## Docencia
+
+- Resumen de docencia en la Pontificia Universidad Católica de Chile (2016-2024).
+- Carta de agradecimiento por la Escuela de Invierno ELSOC-COES 2024.
+- [\[COMPLETAR: certificado de docencia en la Universidad de Chile 2024-2026\]]{bg-color="#FFFF00"}
+
+```{=tex}
+\includepdf[pages={-}]{anexos-dm/docencia/Resumen-Docencia.pdf}
+\includepdf[pages={1}]{anexos-dm/docencia/Carta-Agradecimiento-Daniel-Miranda.pdf}
+```
+
+## Memorias de título
+
+- Comisiones de examen de título como profesor informante, carrera de Psicología, Universidad de Chile (2024-2025).
+
+```{=tex}
+\includepdf[pages={1}]{anexos-dm/memorias/Expediente-titulacion-Maria-Jesus-de-la-Fuente.pdf}
+\includepdf[pages={1}]{anexos-dm/memorias/Expediente-titulacion-Mariajose-Acevedo-y-Pia-Figueroa.pdf}
+\includepdf[pages={1}]{anexos-dm/memorias/Expediente-titulacion-Nicole-Ingrid-Klein.pdf}
+```
+
+## Investigación
+
+- Investigador Responsable, FONDECYT Regular n.° 1240922 (2024-2028).
+- Coinvestigador, FONDECYT Regular n.° 1240960 (2024-2028), página 4 del acta de adjudicación.
+
+```{=tex}
+\includepdf[pages={1}]{anexos-dm/investigacion/regular-2024.pdf}
+\includepdf[pages={4}]{anexos-dm/investigacion/regular-Donoso.pdf}
+```
+
+## Administración universitaria
+
+- Profesor Coordinador de Primer Año, carrera de Psicología, Universidad de Chile (2025).
+
+```{=tex}
+\includepdf[pages={1}]{anexos-dm/administracion-universitaria/Coordinador-Psicol-DMiranda.pdf}
+```
+
+# Ponencias a congresos (selección)
+
+- Miranda, D. (2025). Discussant. X Seminario INVALSI "I dati del e per il sistema educativo". Roma, Italia.
+- Miranda, D. (2025). Mesa "Desafíos digitales y la crisis democrática". XII Conferencia Internacional COES. Santiago, Chile.
+- Encina, Y., Miranda, D. & Berger, C. (2024). X Congreso de la Sociedad Científica de Psicología de Chile. Pucón, Chile.
+- Miranda, D. et al. (2024). Simposio. X Congreso de la Sociedad Científica de Psicología de Chile. Pucón, Chile.
+- Miranda, D. & Castillo, J. C. (2023). 46th Annual Scientific Meeting of ISPP. Montreal, Canadá.
+- Miranda, D. (2023). XX ISA World Congress of Sociology. Melbourne, Australia.
+
+```{=tex}
+\includepdf[pages={1}]{anexos-dm/conferencias/Attestato-Discussant-Daniel-Miranda.pdf}
+\includepdf[pages={1}]{anexos-dm/conferencias/Certificado-COES2025.png}
+\includepdf[pages={1}]{anexos-dm/conferencias/SCP-2024-1.pdf}
+\includepdf[pages={1}]{anexos-dm/conferencias/SCP-2024-2.pdf}
+\includepdf[pages={1}]{anexos-dm/conferencias/ISPP-2023-cert.pdf}
+\includepdf[pages={1}]{anexos-dm/conferencias/ISA-2023-cert.pdf}
+```
+
+# Extensión y divulgación
+
+- Validación externa del perfil de egreso de Psicología, Universidad de Talca (2024).
+- Expositor en seminario de la Academia Parlamentaria, Cámara de Diputadas y Diputados (2023).
+- Invitación al programa "Hablemos de Chile", 13C (2024).
+- Profesor invitado, curso "Civic Education", KU Leuven (2022).
+
+```{=tex}
+\includepdf[pages={1}]{anexos-dm/extension/Carta-invitacion-Daniel-Miranda-UTALCA.pdf}
+\includepdf[pages={1}]{anexos-dm/extension/academia-parlamentaria.pdf}
+\includepdf[pages={1}]{anexos-dm/extension/13C-entrevista.pdf}
+\includepdf[pages={1}]{anexos-dm/extension/Guest-Lecture-on-Political-Participation-for-Course-Civic-Education-Ellen-Claes-KU-Leuven.pdf}
+```
+
+# Antecedentes adicionales
+
+- Editor Asociado, Large-scale Assessments in Education (desde 2024).
+- Experto externo, International Civic and Citizenship Education Study ICCS 2027, IEA.
+- Evaluador, Concurso FONDECYT de Iniciación 2025.
+- Invitación a escribir un capítulo en el Research Handbook on Education and Democracy (Edward Elgar, 2025).
+
+```{=tex}
+\includepdf[pages={1}]{anexos-dm/adicionales/LSAE-editor.pdf}
+\includepdf[pages={1}]{anexos-dm/adicionales/ICCS-2027-NDA-external-expert-final-72.pdf}
+\includepdf[pages={1}]{anexos-dm/adicionales/EV-Iniciacion-2025.pdf}
+\includepdf[pages={1}]{anexos-dm/extension/book-Janmaat.pdf}
+```
+
+# Cartas de respaldo {-}
+
+[\[OPCIONAL: cartas de respaldo internacionales, como en el modelo\]]{bg-color="#FFFF00"}

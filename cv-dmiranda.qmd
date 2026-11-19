@@ -1,0 +1,1095 @@
+---
+lang: es
+format:
+  pdf:
+    pdf-engine: xelatex
+    sansfont: "Times New Roman"
+    mainfont: "Times New Roman"
+    fontsize: 12pt
+    linkcolor: blue
+    urlcolor: blue
+    header-includes:
+      - \usepackage{pdfpages}
+      - \usepackage{fancyhdr}
+      - \usepackage{graphicx}
+      - \usepackage[top=2.5cm, bottom=5cm, left=2.5cm, right=2.5cm]{geometry}
+      - \pagestyle{fancy}
+      - \fancyhf{}
+      - \renewcommand{\headrulewidth}{0pt}
+      - \setlength{\headheight}{2.5cm}
+      - \fancyhead[C]{\includegraphics[width=\dimexpr\textwidth-2cm\relax,height=2.5cm]{encabezado.png}}
+      - \fancyfoot[C]{\thepage}
+      - \usepackage{xcolor}
+  html:
+    toc: true
+    toc-depth: 3
+    include-before:
+      - "<div style='text-align: center;'><img src='encabezado.png' style='width: 100%; max-height: 2.5cm;'></div>"
+number-sections: true
+filters:
+  - highlight-dm.lua
+---
+
+Este CV es accesible en formato [pdf](cv-dmiranda.pdf){target="_blank"} y [web/html](cv-dmiranda.html){target="_blank"}, con links directos a los archivos de respaldo (carpeta `anexos-dm/`). También se presenta un documento de [anexos](anexos-dmiranda.pdf){target="_blank"} con una selección de respaldos en formato pdf.
+
+La información está en un repositorio en GitHub [\[COMPLETAR: URL del repositorio\]]{bg-color="#FFFF00"} y está escrita en Markdown/Quarto. Los textos destacados (en amarillo en la versión html y en rojo en la versión pdf) corresponden a información pendiente de completar o verificar antes del envío.
+
+**ORCID:** [0000-0002-3143-8502](https://orcid.org/0000-0002-3143-8502){target="_blank"} · **Google Académico:** [perfil](https://scholar.google.cl/citations?hl=es&user=vdF2kZcAAAAJ&view_op=list_works&sortby=pubdate){target="_blank"}
+
+# Información personal
+
+**Nombre:** Daniel Andrés Miranda Fuenzalida
+
+**Cédula de identidad o RUN:** 15.129.512-6
+
+**Lugar y fecha de nacimiento:** Curicó, 07 de agosto de 1982
+
+**Nacionalidad:** Chilena
+
+**Estado civil:** Soltero
+
+**Títulos o grados académicos:**
+
+-   [Doctor en Sociología (Ph.D.), Pontificia Universidad Católica de Chile](anexos-dm/estudios/Certificados.pdf){target="_blank"}
+-   [Magíster en Sociología (M.Sc.), Pontificia Universidad Católica de Chile](anexos-dm/estudios/Certificados.pdf){target="_blank"}
+-   [Magíster en Psicología Social-Comunitaria (M.Sc.), Pontificia Universidad Católica de Chile](anexos-dm/estudios/Certificados.pdf){target="_blank"}
+-   [Título Profesional de Psicólogo, mención Psicología Social y de las Organizaciones, Universidad de Talca](anexos-dm/estudios/Certificados.pdf){target="_blank"}
+-   [Licenciado en Psicología, Universidad de Talca](anexos-dm/estudios/Certificados.pdf){target="_blank"}
+
+**Cargo actual en la Universidad de Chile:**
+
+-   [Profesor Asistente, carrera académica ordinaria, Departamento de Psicología](anexos-dm/informacion-personal/Notificacion-Miranda.pdf){target="_blank"}
+-   [Profesor Coordinador de Primer Año, carrera de Psicología (2025)](anexos-dm/administracion-universitaria/Coordinador-Psicol-DMiranda.pdf){target="_blank"}
+
+**Departamento:** Departamento de Psicología
+
+**Facultad o instituto:** Facultad de Ciencias Sociales
+
+**Tipo de jornada y nombramiento:** Jornada completa, [\[VERIFICAR: contrata o planta\]]{bg-color="#FFFF00"}
+
+**Jerarquía académica actual:** Profesor Asistente **desde:** [\[COMPLETAR: fecha/decreto\]]{bg-color="#FFFF00"}. Solicita re-jerarquización a **Profesor Asociado**.
+
+**Dirección académica:** Av. Capitán Ignacio Carrera Pinto 1045, Ñuñoa
+
+**Fono:** +56 9 6847 5941
+
+**E-mail:** danmiranda\@uchile.cl
+
+**Dirección particular:** Dublé Almeyda 2776, dpto. 1203, Ñuñoa
+
+**Fono:** +56 9 6847 5941
+
+**E-mail:** damiranda\@gmail.com
+
+# Estudios realizados
+
+## Estudios superiores universitarios formales conducentes a grado, título o diploma
+
+**Marzo 2014 - abril 2018**\
+[Doctorado en Sociología](anexos-dm/estudios/Certificados.pdf){target="_blank"} - Instituto de Sociología, Pontificia Universidad Católica de Chile.\
+Tesis: "Desigualdad y Ciudadanía: una aproximación intergeneracional".
+
+**Marzo 2014 - diciembre 2017**\
+[Magíster en Sociología](anexos-dm/estudios/Certificados.pdf){target="_blank"} - Instituto de Sociología, Pontificia Universidad Católica de Chile.
+
+**Marzo 2009 - diciembre 2011**\
+[Magíster en Psicología Social-Comunitaria](anexos-dm/estudios/Certificados.pdf){target="_blank"} - Escuela de Psicología, Pontificia Universidad Católica de Chile.\
+Tesis: "Nacionalismo, conflicto percibido y prejuicio: el rol del modelo integrado de la amenaza".
+
+**Marzo 2001 - marzo 2007**\
+[Título Profesional de Psicólogo, mención en Psicología Social y de las Organizaciones](anexos-dm/estudios/Certificados.pdf){target="_blank"} - Universidad de Talca.\
+Memoria: "Elaboración de un instrumento para estimar las competencias emprendedoras, basadas en el modelo de Spencer & Spencer (1993)".
+
+**Marzo 2001 - marzo 2007**\
+[Licenciatura en Psicología](anexos-dm/estudios/Certificados.pdf){target="_blank"} - Universidad de Talca.
+
+## Actividades de perfeccionamiento
+
+- [Estadía de Investigación. Department of Education. University of Bath. 17 al 25 de octubre de 2022. Reino Unido.](anexos-dm/estudios/Invitation-Daniel-Miranda.pdf){target="_blank"}
+
+- [Estadía de investigación doctoral. Department of Education. University of Bath. Enero a abril de 2017. Reino Unido.](anexos-dm/estudios/Visiting-Scholar-certification.pdf){target="_blank"}
+
+- [6^th^ Berlin Summer School. Linking Theory and Empirical Research. Julio 17-28, 2016. Berlin, Alemania.](anexos-dm/estudios/Berlin-Summer-School.pdf){target="_blank"}
+
+- [4^th^ Gesis Summer School in Survey Methodology. Week 3, course: Testing Survey Data for Measurement Equivalence Across Countries and Time. Julio 24-28, 2015. Colonia, Alemania.](anexos-dm/estudios/GESIS-2015.pdf){target="_blank"}
+
+- [Internship en Data Processing Center DPC, International Association for the Evaluation of Educational Achievement IEA, Hamburgo, Alemania. Febrero 02-13, 2015.](anexos-dm/estudios/IEA-DPC-2015.pdf){target="_blank"}
+
+- [Workshop: Hierarchical Linear Modeling with TIMSS and PIRLS data. IEA Data Processing Center and Research. Hamburgo, Alemania. Noviembre 25-29, 2013](anexos-dm/estudios/HLM-IEA-2013.pdf){target="_blank"}.
+
+- [Summer School: Rising Inequalities and their impacts on Societies. ECSR, EQUALSOC & Universidad de Trento. Levico (Trento), Italia. Septiembre 2-6, 2013.](anexos-dm/estudios/Gmail-Summer-School-Levico-2013-Results.pdf){target="_blank"}
+
+# Distinciones obtenidas
+
+## Becas
+
+**Becas de estudio:**
+
+[Beca Conicyt 2015, otorgada en el marco de Programa de Capital Humano Avanzado para estudios de Doctorado en Chile, entre 2015 y 2018.](anexos-dm/distinciones/Conicyt-2015.pdf){target="_blank"}
+
+[Patrocinio de tesis doctoral, Centro de Estudios de Conflicto y Cohesión Social, COES, para apoyar el desarrollo de la tesis doctoral, entre 2014 y 2018.](anexos-dm/distinciones/Patrocinio-COES.pdf){target="_blank"}
+
+Beca doctoral en Chile otorgada por la Pontificia Universidad Católica de Chile para el desarrollo de Doctorado en Sociología, año 2014
+
+[Beca Conicyt 2009, otorgada en el marco de Programa de Capital Humano Avanzado para Estudios de Magíster en Chile, entre 2009 y 2010](anexos-dm/distinciones/Conicyt-2009.pdf){target="_blank"}
+
+**Becas de viaje:**
+
+Travel Grant: Academic visit at Department of Education, University of Bath, UK, 2017. Patrocinado por: Pasantía de Investigación de Beca Conicyt 2015.
+
+Travel Grant: 6th Berlin Summer School, Julio de 2016. Patrocinado por: Berlin Summer in Social Sciences.
+
+Travel Grant: 4th Gesis Summer School I Survey Methodology, Junio de 2015. Patrocinado por: Gesis Summer School 2015.
+
+Travel Grant: Summer School Rising Inequalities and their impacts on Societies. ECSR, EQUALSOC & Universidad de Trento. Levico (Trento), Italia. Septiembre 2-6, 2013. Patrocinado por: Summer School Rising Inequalities and their impacts on Societies. Sitio: http://events.unitn.it/en/ecsr2013
+
+## Premios y otras distinciones
+
+- [Outstanding Early Career Paper Award: Large Scale Cross National Special Interest Group, 63th Comparative and International Education Society Conference 2019](anexos-dm/distinciones/Early-Career-LSCE.pdf){target="_blank"}
+
+- [Outstanding Early Career Paper Award: Citizenship and Democratic Education Special Interest Group, 62th Comparative and International Education Society Conference 2018](anexos-dm/distinciones/Early-Career-CANDE.pdf){target="_blank"}
+
+# Breve cronología laboral
+
+- Junio de 2024 al presente. [Profesor Asistente, carrera ordinaria, Departamento de Psicología, Facultad de Ciencias Sociales, Universidad de Chile.](anexos-dm/informacion-personal/Notificacion-Miranda.pdf){target="_blank"}
+
+- Marzo a diciembre de 2025. Profesor Coordinador de Primer Año, carrera de Psicología, Facultad de Ciencias Sociales, Universidad de Chile.
+
+- Marzo de 2018 a mayo de 2024. Profesor Investigador Asistente en Centro de Medición MIDE UC, Escuela de Psicología, Pontificia Universidad Católica de Chile.
+
+- Octubre de 2021 al presente. [Investigador Asociado al Centro de Estudios de Conflicto y Cohesión Social (COES).](anexos-dm/cronologia-laboral/Carta-Miranda-Asociado-COES.pdf){target="_blank"} [\[VERIFICAR si continúa vigente\]]{bg-color="#FFFF00"}
+
+- Enero de 2023 al presente: [Investigador Adjunto en el Núcleo Milenio sobre Oportunidades y Desigualdades Digitales NUDOS.](https://www.nudos.cl/sobre-nudos/){target="_blank"} [\[VERIFICAR si continúa vigente\]]{bg-color="#FFFF00"}
+
+- Marzo de 2018 al septiembre de 2021. Investigador adjunto al Centro de Estudios de Conflicto y Cohesión Social (COES).
+
+- Marzo de 2014 al febrero de 2018. Asistente de Investigación en Centro de Estudios de Conflicto y Cohesión Social (COES).
+
+- Marzo de 2013 – diciembre de 2013. Asistente de Investigación (Personal Técnico) en Proyecto FONDECYT Iniciación N°11121203: Social justice and citizenship participation: An International comparison with focus on the case of Chile. Investigador Principal: PhD Juan Carlos Castillo Valenzuela.
+
+- Diciembre de 2009 – febrero 2014. Asistente de Investigación en Laboratorio de Psicología Social, Escuela de Psicología UC. Investigador Responsable: PhD Roberto González Gutiérrez.
+
+- Febrero de 2008 - marzo de 2009. Profesional inserto en la Corporación Pro-O’Higgins. Fundación para la Superación de la Pobreza, Rancagua, Chile.
+
+- Julio de 2007 - febrero de 2008. Director(s). Consultorio de Salud Municipal, Paredones, Chile.
+
+- Marzo de 2007 - febrero de 2008. Psicólogo de Programa de Salud Mental. Consultorio de Salud Municipal, Paredones, Chile.
+
+- Enero de 2006 - junio de 2007. Psicólogo de Recursos Humanos. Triggs S.A. Curicó, Chile.
+
+# Actividades académicas
+
+## Docencia
+
+### Asignaturas de pregrado y postgrado
+
+Horas: horas semanales de docencia directa / horas semanales de la asignatura según plan de estudios.
+
+-   Pregrado Universidad de Chile
+
+| Asignatura | Año-sem. | Carácter | Carrera | N | Hrs. directas / plan | Participación |
+|------------------------------|--------|----------|----------|-----|-------|------------|
+| [\[COMPLETAR\]]{bg-color="#FFFF00"} | | | Psicología | | | |
+
+-   Postgrado Universidad de Chile
+
+| Asignatura | Año-sem. | Carácter | Programa | N | Hrs. directas / plan | Participación |
+|------------------------------|--------|----------|----------|-----|-------|------------|
+| [\[COMPLETAR\]]{bg-color="#FFFF00"} | | | | | | |
+
+-   [Pregrado Pontificia Universidad Católica de Chile](anexos-dm/docencia/Resumen-Docencia.pdf){target="_blank"}
+
+| Asignatura | Año-sem. | Carácter | Unidad | N | Hrs. directas / plan | Participación |
+|------------------------------|--------|----------|----------|-----|-------|------------|
+| Métodos de Investigación Cuantitativa | 2024-1 | Obligatorio | Psicología | 42 | 2 / 10 | Responsable único |
+| Métodos de Investigación Cuantitativa | 2023-1 | Obligatorio | Psicología | 43 | 2 / 10 | Responsable único |
+| Psicología Social | 2023-1 | Obligatorio | Psicología | 74 | 2 / 10 | Responsable único |
+| Métodos de Investigación Cuantitativa | 2022-1 | Obligatorio | Psicología | 44 | 2 / 10 | Responsable único |
+| Metodologías de Investigación en Psicología | 2022-2 | Obligatorio | Psicología | 39 | 2 / 10 | Responsable único |
+| Métodos de Investigación Cuantitativa | 2021-1 | Obligatorio | Psicología | 43 | 2 / 10 | Responsable único |
+| Metodologías de Investigación en Psicología | 2021-2 | Obligatorio | Psicología | 35 | 2 / 10 | Responsable único |
+| Métodos de Investigación Cuantitativa | 2020-2 | Obligatorio | Psicología | 44 | 2 / 10 | Responsable único |
+| Metodologías de Investigación en Psicología | 2020-1 | Obligatorio | Psicología | 36 | 2 / 10 | Responsable único |
+| Individuo y Sociedad | 2018-2 | Obligatorio | Sociología | 69 | 2 / 10 | Responsable único |
+| Metodologías de Investigación Social | 2017-2 | Obligatorio | Sociología | 36 | 2 / 10 | Responsable único |
+| Metodologías de Investigación Social | 2016-2 | Obligatorio | Sociología | 28 | 2 / 10 | Responsable único |
+
+-   [Postgrado Pontificia Universidad Católica de Chile](anexos-dm/docencia/Resumen-Docencia.pdf){target="_blank"}
+
+| Asignatura | Año-sem. | Carácter | Unidad | N | Hrs. directas / plan | Participación |
+|------------------------------|--------|----------|----------|-----|-------|------------|
+| Análisis de Modelos de Ecuaciones Estructurales | 2024-1 | Electivo | Sociología | 16 | 2 / 5 | Responsable único |
+| Análisis de Modelos de Ecuaciones Estructurales | 2023-1 | Electivo | Sociología | 16 | 2 / 5 | Responsable único |
+| Análisis de Modelos de Ecuaciones Estructurales | 2020-2 | Electivo | Sociología | 15 | 2 / 5 | Responsable único |
+| Análisis de Datos Categóricos | 2019-2 | Obligatorio | Sociología | 29 | 2 / 10 | Responsable único |
+| Análisis de Modelos de Ecuaciones Estructurales | 2019-1 | Electivo | Sociología | 20 | 2 / 5 | Responsable único |
+| Metodología Cuantitativa Avanzada I | 2016-1 | Obligatorio | Sociología | 15 | 2 / 10 | Instructor |
+
+-   Otros: talleres de formación para equipos técnicos de ministerios de educación (UNESCO) y talleres pre-conferencia (CIES, COLMEE), detallados en la sección siguiente.
+
+### Creatividad docente
+
+En mi actividad como docente he tenido la oportunidad de participar, tanto en la creación de cursos nuevos como en la modificación de cursos existentes. Como se puede ver en la sección 5.1.1 la mayoría de los cursos en que he participado refieren a la enseñanza de métodos cuantitativos. En todos ellos he procurado desarrollar una orientación pedagógica que combina, por un lado, formas tradicionales de enseñanza, como la enseñanza expositiva basada en textos especializados combinado con el uso de ejercicios prácticos. Por otro lado, desarrollar un enfoque basado en problemas de programación en un entorno de software libre. Esto implica promover el uso de softwares como R y RStudio, ambos entornos de análisis de datos ampliamente utilizados para el análisis de datos en el marco de investigación social. Así por ejemplo, las distintas versiones del curso *Análisis de Modelos de Ecuaciones Estructurales* y de *Métodos de Investigación Cuantitativa*, tienen un componente lectivo y un componente práctico de análisis aplicado de datos en todas las sesiones, además de la producción de reportes generados con los softwares mencionados, en que se aplican las técnicas estudiadas como evaluación central.
+
+Siguiendo esta aproximación he participado en la creación y realización de múltiples talleres de análisis de datos dictados en conferencias, a comunidad de investigad@s nacionales y a instituciones gubernamentales. En todos los casos se busca la formación de capital humano en técnicas de estadísticas de investigación en ciencias sociales, enfatizando el componente del uso de sofwares libres y, cuando se puede, abierto a la comunidad amplia. Esa es la razón por la que los talleres han sido realizados en el marco de instituciones como el Centro de Estudios Conflicto y Cohesión o en el marco de conferencias, en las que se puede llegar a insvestigador@s jóvenes.
+
+Adicionalmente, en conjunto equipo del Estudio Longitudinal Social de Chile desarrollado por el Centro de Estudios de Conflicto y Cohesión Social (COES), hemos desarrollado la *Escuela de Invierno ELSOC-COES: Técnicas de análisis longitudinales,* en su versiones: [2019](https://coes.cl/eventoscoes/taller-elsoc-analisis-de-clases-latentes/){target="_blank"}, [2021](https://coes.cl/2021/07/12/escuela-invierno-2021/){target="_blank"}, [2022](https://coes.cl/wp-content/uploads/Programa_Escuela_2022.pdf){target="_blank"}, [2023](https://coes.cl/2023/07/10/postulaciones-abiertas-para-la-escuela-de-invierno-elsoc-2023-tecnicas-longitudinales-para-el-estudio-de-fenomenos-sociales/){target="_blank"} y [2024](https://coes.cl/2024/07/17/postulaciones-abiertas-para-la-escuela-de-invierno-elsoc-2024-tecnicas-longitudinales-para-el-estudio-de-fenomenos-sociales/){target="_blank"}. En total, alrededor de 1100 estudiantes han participado en sus diversas versiones y talleres. Como consta en la [carta de agradecimiento de la última versión](anexos-dm/docencia/Carta-Agradecimiento-Daniel-Miranda.pdf){target="_blank"}, la participación en esta instancia ha sido importante para la formación de nuevas generaciones de estudiantes, académicos, investigadores y profesionales.
+
+*Talleres creados y dictados*
+
+- [Análisis de Clases Latentes](https://coes.cl/wp-content/uploads/Programa_Escuela_2024.pdf){target="_blank"}.
+
+    [\[COMPLETAR: talleres o versiones de la Escuela de Invierno ELSOC-COES dictados en 2025 y 2026, si corresponde\]]{bg-color="#FFFF00"}
+
+    Taller realizado para la comunidad COES utilizando los datos del Estudio Longitudinal Social de Chile-ELSOC. Agosto de 2024.
+
+- [Análisis de Clases Latentes](https://coes.cl/wp-content/uploads/Programa_Escuela_2023.pdf){target="_blank"}.
+
+    Taller realizado para la comunidad COES utilizando los datos del Estudio Longitudinal Social de Chile-ELSOC. Julio de 2023.
+
+- Análisis de Clases Latentes.
+
+    Taller realizado para la comunidad COES utilizando los datos del Estudio Longitudinal Social de Chile-ELSOC. Julio de 2022.
+
+- [Análisis de Factores Asociados empleando R](https://www.colmee.cl/programa/analisis-de-factores-asociados-empleando-r/){target="_blank"}
+
+    Taller realizado en el marco del Congreso Latinoamericano de Medición y Evaluación Educacional 2021 - COLMEE. Octubre de 2021.
+
+- Análisis de Clases Latentes.
+
+    Taller realizado para la comunidad COES utilizando los datos del Estudio Longitudinal Social de Chile-ELSOC. Agosto de 2021.
+
+- [Taller de Análisis Datos II, con foco en Evaluaciones Educativas de Gran Escala](anexos-dm/cronologia-laboral/UNESCO-Sao-Paulo.pdf){target="_blank"}.
+
+    Taller realizado a equipos técnicos de los Ministerios de Educación de países Latinoamericanos, organizado por UNESCO. 4, 5 y 6 de diciembre de 2019. Sao Paulo, Brasil.
+
+- [Análisis de Clases Latentes](https://coes.cl/eventoscoes/taller-elsoc-analisis-de-clases-latentes/){target="_blank"}.
+
+    Taller realizado para la comunidad COES utilizando los datos del Estudio Longitudinal Social de Chile-ELSOC. Agosto de 2019.
+
+- [Using R to fit HLM with large-scale assessment data](http://tinyurl.com/y42ncr5o){target="_blank"}.
+
+    Pre-conference workshop at “63th annual conference of Comparative and International Education Society” (Marzo 25-29, 2019). San Francisco, USA. Organized in colaboration with Andrés Sandoval-Hernández (University of Bath), Carlos Cayuman (UNESCO-ORELAC) and Diego Carrasco (MIDE UC).
+
+- [Taller de Análisis Datos I, con foco en Evaluaciones Educativas de Gran Escala](anexos-dm/cronologia-laboral/UNESCO-Buenos-Aires.pdf){target="_blank"}.
+
+    Taller realizado a equipos técnicos de los Ministerios de Educación de países Latinoamericanos, organizado por UNESCO. 12, 13 y 14 de noviembre de 2018. Buenos Aires, Argentina.
+
+- [Taller de Análisis Multinivel con Datos de Evaluaciones Educativas de Gran Escala](anexos-dm/cronologia-laboral/UNESCO-Bolivia.pdf){target="_blank"}.
+
+    Taller realizado a equipos técnicos de los Ministerios de Educación de países Latinoamericanos, organizado por UNESCO. 28 y 29 de mayo de 2018. La Paz, Bolivia.
+
+- [Introducción a R para el análisis de datos educacionales en estudios de gran escala: manejo de datos y modelos mixtos.](anexos-dm/conferencias/COLMEE-2018-Propuesta-de-taller-R.pdf){target="_blank"}
+
+    Workshop realizado en COLMEE 2018 (Mayo 10-12, 2018). Montevideo, Uruguay. Organizado con Diego Carrasco (MIDE UC).
+
+- [Using R to fit HLM with large-scale assessment data](anexos-dm/conferencias/CIES-2018.pdf){target="_blank"} (página 39).
+
+    Pre-conference workshop en “62th annual conference of Comparative and International Education Society” (Marzo 25-29, 2018). Ciudad de México, México. Organized ien colaboración con Falk Bresse (IEA) and Adriana Viteri (UNESCO-ORELAC).
+
+- Análisis de encuestas con diseño complejo en Stata.
+
+    Taller de 16 horas ofrecido por el Instituto de Sociología a instituciones externas. Enero de 2018.
+
+- [Taller de Análisis Multinivel con Datos de Evaluaciones Educativas de Gran Escala](anexos-dm/cronologia-laboral/UNESCO-Buenos-Aires-2017.pdf){target="_blank"}.
+
+    Taller realizado a equipos técnicos de los Ministerios de Educación de países Latinoamericanos, organizado por UNESCO. 3, 4 y 5 de Julio de 2017. Buenos Aires, Argentina.
+
+### Tesis y memorias dirigidas
+
+**A. Tesis dirigidas de magíster (M.A., M.Sc.) y doctorado (Ph.D.) como profesor responsable**
+
+Hasta mayo de 2024 mi cargo como investigador de un centro universitario (MIDE UC) no contemplaba la pertenencia a claustros de programas de postgrado. Aun así, participé como co-tutor de dos tesis de magíster y como miembro de comisiones evaluadoras de tres tesis (dos de magíster y una de doctorado). Desde mi incorporación a la Universidad de Chile he asumido la guía de estudiantes de pregrado y postgrado.
+
+*A.1 Universidad de Chile*
+
+-   [\[COMPLETAR: tesis de magíster o doctorado dirigidas o en curso desde 2024 (estudiante, programa, título, rol y estado), y pertenencia a claustros de programas de postgrado\]]{bg-color="#FFFF00"}
+
+*A.2 Otras universidades - Magíster*
+
+-   [Mardones, M. (2023). Socialización política de estudiantes de enseñanza media. Magíster en Métodos para la Investigación Social, Universidad Diego Portales (Co-tutor).](anexos-dm/docencia/Tesis-de-MATIAS-ERNESTO-MARDONES-VALDIVIA.pdf){target="_blank"}
+-   [Miranda, C. (2019). Brechas de género en las expectativas de participación política: una mirada desde las actitudes de igualdad de género en Chile 2009 y 2016. Magíster en Sociología, Pontificia Universidad Católica de Chile (Co-tutor).](https://repositorio.uc.cl/handle/11534/28476){target="_blank"}
+-   [Marfán, C. Transmisión intergeneracional de la prosocialidad: una aproximación a la relación entre la conducta prosocial de adolescentes tempranos y la prosocialidad de sus padres. Magíster en Psicología Educacional, Pontificia Universidad Católica de Chile (Comité evaluador).](https://repositorio.uc.cl/handle/11534/62177){target="_blank"}
+-   [Riquelme, A. Creencias de universalismo y orientación de dominancia social en la escuela: evaluación de un programa escolar (ProCiviCo) que promueve comportamientos prosociales y participación ciudadana en adolescentes chilenos. Magíster en Psicología Educacional, Pontificia Universidad Católica de Chile (Comité evaluador).](https://repositorio.uc.cl/handle/11534/50056){target="_blank"}
+
+*A.3 Otras universidades - Doctorado*
+
+-   [Kameshwara, K. K. Essays on Accountability and Achievement in Education Systems: Evidence from Large-Scale Cross-National Assessments. PhD in Advanced Quantitative Methods in Social Sciences, University of Bath, Reino Unido (Examinador externo).](anexos-dm/docencia/PhD-examination-at-the-University-of-Bath-Kalyan-Kumar-Kameshwara.pdf){target="_blank"}
+
+**B. Memorias de pregrado dirigidas como profesor responsable conducentes a grado o título**
+
+Universidad de Chile, carrera de Psicología:
+
+-   [\[COMPLETAR: memorias dirigidas como profesor patrocinante (estudiante, título, año)\]]{bg-color="#FFFF00"}
+
+Participación como profesor informante en comisiones de examen de título, carrera de Psicología, Universidad de Chile:
+
+-   [de la Fuente Guzmán, M. J. (2024). Memoria para optar al título de Psicóloga. Profesor patrocinante: Pablo Valdivieso. Rol: profesor informante y representante de la Decana. Examen: 27 de noviembre de 2024.](anexos-dm/memorias/Expediente-titulacion-Maria-Jesus-de-la-Fuente.pdf){target="_blank"}
+-   [Acevedo Zúñiga, M. J. y Figueroa Jiménez, P. (2025). Memoria para optar al título de Psicóloga. Profesora patrocinante: María José Reyes. Rol: profesor informante y representante de la Decana. Examen: 16 de enero de 2025.](anexos-dm/memorias/Expediente-titulacion-Mariajose-Acevedo-y-Pia-Figueroa.pdf){target="_blank"}
+-   [Klein Vallecillo, I. (2025). Memoria para optar al título de Psicóloga. Profesor patrocinante: Esteban Encina. Rol: profesor informante. Examen: 29 de enero de 2025.](anexos-dm/memorias/Expediente-titulacion-Nicole-Ingrid-Klein.pdf){target="_blank"}
+
+## Investigación
+
+### Proyectos de investigación
+
+- [\[COMPLETAR: proyectos adjudicados o iniciados en 2025-2026 (rol, título, fuente de financiamiento, si es concursable, fechas)\]]{bg-color="#FFFF00"}
+
+- [Investigador Responsable en proyecto FONDECYT Regular n°1240922:](anexos-dm/investigacion/regular-2024.pdf){target="_blank"} Actitudes y comportamiento político juvenil: desigualdad, estilos de socialización escolar e influencias intergeneracionales. Financiado por ANID/FONDECYT. Abril de 2024 a marzo de 2028.
+
+- [Coinvestigador del FONDECYT regular 1240960 (pág 4)](anexos-dm/investigacion/regular-Donoso.pdf){target="_blank"} (a cargo de la Profesora Sofía Donoso, Departamento de Sociología, Universidad de Chile), titulado: *Aprendizaje político en movimiento sociales: ¿portadores individuales, organizacionales y generacionales?* Financiado por ANID/FONDECYT. Abril de 2024 a marzo de 2028.
+
+- Investigador Adjunto en [Núcleo Milenio de Desigualdades y Oportunidades Digitales - NUDOS](https://www.nudos.cl/sobre-nudos/){target="_blank"}. Financiado por ANID/NUDOS NCS2022_046. Marzo de 2023 al presente. [\[VERIFICAR fecha de término\]]{bg-color="#FFFF00"}
+
+- Investigador Asociado en [Centro de Estudios de Conflicto y Cohesión Social (COES)](anexos-dm/cronologia-laboral/Carta-Miranda-Asociado-COES.pdf){target="_blank"}. Financiado por ANID/FONDAP 15130009. Octubre 2021 al presente. [\[VERIFICAR fecha de término\]]{bg-color="#FFFF00"}
+
+- Coinvestigador en proyecto: "Environmental Knowledge and Environmental Attitudes among Secondary School Student". Investigador Responsible: Profesor Andrés Sandoval Hernández, Department of Education, University of Bath. Financiado por International Association for the Educational Achievement - IEA. Diciembre de 2022 a septiembre de 2024.
+
+- Coinvestigador en proyecto: “Procesos de socialización de la cohesión social intergrupal en NNA: Hacia el escalamiento y la medición a nivel municipal del programa ProCiviCo (Participación Prosocial y Ciudadana para la cohesión social)". Investigadora Responsable: Profesora Paula Luengo-Kanacri, Escuela de Psicología, Pontificia Universidad Católica de Chile. Financiado por el Centro de Estudios de Conflicto y Cohesión Social - COES. Enero de 2023 a abril de 2024.
+
+- [Investigador Responsable en proyecto FONDECYT de Iniciación n°11190508:](https://www.dropbox.com/scl/fi/ye8ra65g2epi6fr1y736x/Participaci-n_Fondecyt.pdf?rlkey=q58ty3foo9ng2qrft5h1x2gho&dl=0){target="_blank"} Participación Ciudadana Juvenil: entre la reproducción social y la socialización política. Financiado por ANID/FONDAP 15130009. Noviembre de 2019 a octubre de 2022.
+
+- Coinvestigador en Proyecto: Good Citizenship Around the World. Investigadro Responsible: Profesor Ernesto Treviño, Facultad de Educación, Pontificia Universidad Católica de Chile. Financiado por International Association for the Educational Achievement - IEA. 2019 a 2020.
+
+- [Coinvestigador en proyecto FONDECYT Regular n°1181239](https://www.dropbox.com/scl/fi/ye8ra65g2epi6fr1y736x/Participaci-n_Fondecyt.pdf?rlkey=q58ty3foo9ng2qrft5h1x2gho&dl=0){target="_blank"}: Socialización política y educación para la ciudadanía: el rol de la familia y la escuela. Investigador Responsable: Profesor Cristián Cox Donoso, Facultad de Educación, Universidad Diego Portales. Financiado por ANID/FONDECYT. Marzo de 2018 a marzo de 2021.
+
+- Investigador adjunto en Centro de Estudios de Conflicto y Cohesión Social (COES). Financiado por ANID/FONDAP 15130009. Marzo 2018 a septiembre de 2021.
+
+- [Coinvestigador en proyecto FONDECYT Regular n°1120630](https://www.dropbox.com/scl/fi/ye8ra65g2epi6fr1y736x/Participaci-n_Fondecyt.pdf?rlkey=q58ty3foo9ng2qrft5h1x2gho&dl=0){target="_blank"}: Socialización política y experiencia escolar: Chile en contexto internacional. Investigador Responsable: Profesor Cristián Cox Donoso, Facultad de Educación, Pontificia Universidad Católica de Chile. Financiado por ANID/FONDECYT. Marzo de 2012 a marzo de 2015.
+
+- Asistente de Investigación en Centro de Estudios de Conflicto y Cohesión Social (COES). Financiado por ANID/FONDAP 15130009. Marzo de 2014 - febrero de 2018.
+
+- [Asistente de Investigación en Proyecto FONDECYT Iniciación N°11121203:](https://www.dropbox.com/scl/fi/ye8ra65g2epi6fr1y736x/Participaci-n_Fondecyt.pdf?rlkey=q58ty3foo9ng2qrft5h1x2gho&dl=0){target="_blank"} Social justice and citizenship participation: An International comparison with focus on the case of Chile. Investigador Principal: Profesor Juan Carlos Castillo Valenzuela, MIDE UC, Pontificia Universidad Católica de Chile. Financiado por ANID/FONDECYT. Marzo de 2013 – diciembre de 2013.
+
+- [Tesista en proyecto FONDECYT Regular n°1070833](https://www.dropbox.com/scl/fi/ye8ra65g2epi6fr1y736x/Participaci-n_Fondecyt.pdf?rlkey=q58ty3foo9ng2qrft5h1x2gho&dl=0){target="_blank"}: Inmigrantes en Chile: antecedentes psicológicos de las preferencias aculturativas de los chilenos. Responsable: PhD Roberto González Gutiérrez. Marzo de 2010 – marzo de 2011.
+
+- Asistente de Investigación en Laboratorio de Psicología Social, Escuela de Psicología UC. Investigador Responsable: Profesor Roberto González Gutiérrez, Escuela de Psicología, Pontificia Universidad Católica de Chile. Diciembre de 2009 – febrero 2014.
+
+## Creación
+
+No aplica.
+
+## Extensión y divulgación
+
+Además de mi participación en conferencias nacionales e internacionales enumeradas en las secciones 8.3.2 y 8.3.3, puedo agregar las siguientes actividades de divulgación:
+
+- [\[COMPLETAR: actividades de extensión y medios 2025-2026 (entrevistas, columnas, seminarios, presentaciones de resultados ELSOC, etc.)\]]{bg-color="#FFFF00"}
+
+- Noviembre de 2024. Invitado como experto externo (egresado y académico de la Universidad de Chile) al proceso de validación externa del perfil de egreso de la carrera de Psicología de la Universidad de Talca, en el marco de la actualización de su oferta formativa.
+
+- Agosto de 2024. [Entrevista en Radio DUNA](https://www.duna.cl/programa/nada-personal/2024/08/16/daniel-miranda-y-el-analisis-a-cinco-anos-del-estallido-social-chile-tiene-una-serie-de-problematicas-sociales-que-son-relevantes-el-tema-es-cual-es-la-respuesta-del-sistema-politico/?utm_source=Masiva&utm_campaign=770c6a72e3-Semana-3+diciembre_COPY_01&utm_medium=email&utm_term=0_817d666ed4-770c6a72e3-332439181){target="_blank"} para comentar el Informe sobre Desarrollo Humano en Chile 2024.
+
+- Agosto de 2024. [Invitación a participar en el programa “Hablemos de Chile” de 13C](anexos-dm/extension/13C-entrevista.pdf){target="_blank"}Acceso a video.
+
+- Agosto de 2024. [Invitación a participar en el programa “Hablemos de Chile” de 13C](anexos-dm/extension/13C-entrevista.pdf){target="_blank"}Acceso a video.
+
+- Agosto de 2024. Invitación a presentar los resultados del Estudio Longitudinal Social de Chile (ELSOC) al [Servicio Nacional de Migraciones](anexos-dm/extension/ELSOC-interculturalidad-2024.pdf){target="_blank"}.
+
+- Agosto de 2024. [Presentación en el Seminario Interdisciplinario de Comportamiento Político y Opinión Pública](https://x.com/UCSociologia/status/1818303093433405948){target="_blank"}, organizado por la Escuela de Gobierno y el Instituto de Sociología de la Pontificia Universidad Católica de Chile.
+
+- Julio de 2024. [Presentación](https://www.youtube.com/watch?v=_9nd3LzioVM){target="_blank"} del Estudio Longitudinal Social de Chile (ELSOC) ["Radiografía de la Cohesión Social: Estudio Longitudinal 2016-2023](anexos-dm/extension/elsoc-2024.webp){target="_blank"}" principales hallazgos de las 7 olas del Estudio Longitudinal Social de Chile (ELSOC).
+
+- Agosto de 2023. [Participación como expositor en Seminario de la Academia Parlamentaria](anexos-dm/extension/academia-parlamentaria.pdf){target="_blank"}: Chile en el contexto regional: realidad y desafíos, organizado por la Cámara de Diputadas y Diputados de Chile.
+
+- Mayo de 2023. [Participación en posdcast: Tras las Líneas, con Manuel Antonio Garretón](https://www.youtube.com/watch?v=Octa0Xixj0k){target="_blank"}.
+
+- Enero de 2023. [Participación en la actividad de cierre del Programa Territorial de Convivencia Escolar y Atención en Crisis](anexos-dm/extension/Procivico-La-Granja.pdf){target="_blank"}, desarrollado por el Ministerio de Educación en colaboración con el Proyecto ProCíviCo de la Escuela de Psicología de la Pontificia Universidad Católica, junto al Departamento Provincial de la Granja.
+
+- Diciembre de 2022. [Participación en la actividad de cierre del Programa Territorial de Convivencia Escolar y Atención en Crisis](anexos-dm/extension/Procivico-Linares.pdf){target="_blank"}, desarrollado por el Ministerio de Educación en colaboración con el Proyecto ProCíviCo de la Escuela de Psicología de la Pontificia Universidad Católica, junto al Departamento Provincial de Linares y el Departamento de Administración Municipal de Linares.
+
+- Octubre de 2022. [Presentación en la Universidad de Bath en el: Visiting scholar Seminar](https://twitter.com/Nverolh/status/1583474348668567555){target="_blank"}, desarrollado por el Departamento de Educación de la Universidad.
+
+- Octubre de 2022. [Entrevista en CHV](https://twitter.com/CentroCOES/status/1582488524711813122?s=20){target="_blank"}, en el marco del aniversario del estallido social.
+
+- Septiembre de 2022. [Presentación en el seminario: Jóvenes y Participación en Política](anexos-dm/extension/seminario-UOH.jpeg){target="_blank"}, desarrollado por la Universidad de O’Higgins, el Instituto de Ciencias Sociales y el Centro de Estudios de Conflicto y Cohesión Social.
+
+- Marzo de 2022. [Profesor Invitado para introducir el tópico de Participación Política](anexos-dm/extension/Guest-Lecture-on-Political-Participation-for-Course-Civic-Education-Ellen-Claes-KU-Leuven.pdf){target="_blank"} para el curso 'Civic Education' organizado por la Profesora Ellen Claes, KU Leuven.
+
+- Enero de 2022. Presentación del Estudio Longitudinal Social de Chile (ELSOC) "[Radiografía del Cambio Social: Nuevos Hallazgos Longitudinales 2016-2021](https://coes.cl/2022/01/05/nota-elsoc-presentara-radiografia-del-cambio-social-nuevos-hallazgos-longitudinales-2016-2021/){target="_blank"}" principales hallazgos de las 5 olas del Estudio Longitudinal Social de Chile (ELSOC).
+
+- Agosto de 2021. [Seminario "Movimiento estudiantil 2011. Consecuencias, impactos y desafíos 10 años después".](https://twitter.com/ceppe_uc/status/1423260049162506240?s=20){target="_blank"} Organizado por proyecto FONDECYT n°11190198 y FONDECYT n°11190508. Actividad virtual.
+
+- Marzo de 2021. [Seminario "Mitos y realidades sobre las violencias en la movilización social y la protesta”,](https://twitter.com/FCEChile/status/1376234884306497537?s=20){target="_blank"} organizado por el Fondo de Cultura Económica y el Centro de Estudios de Conflicto y Cohesión Social COES.
+
+- Agosto de 2020. [Reportaje de prensa de El Mercurio](https://twitter.com/CentroCOES/status/1295485785978920962?t=YramXUhcSJJtK1_7-Lcfgg&s=08){target="_blank"}, que publica mi opinión como experto, acerca de los jóvenes y su relación con la política.
+
+- Noviembre de 2020. [Seminario "¿Qué piensan las personas sobre los distintos temas públicos y qué tan cerca están de los datos existentes al respecto?](https://twitter.com/ucatolica/status/1331984828967817221?s=20){target="_blank"} Actividad virtual.
+
+- Noviembre de 2020. [Columna de opinión publicada en la Revista Universitaria UC](https://issuu.com/visionuniversitaria/docs/ru161){target="_blank"}, número 161, página 73.
+
+- Mayo de 2020. Profesor Invitado para dictar una clase de [Ciudadanía y Participación](anexos-dm/extension/Clase-UDD-Varela.pdf){target="_blank"}, en el marco para el curso 'Pre-práctica Profesional', organizado por el Profesor Jorge Varela, Escuela de Psicología, Universidad del Desarrollo.
+
+- Mayo 2020 – diciembre de 2021. Participación como co-investigador del proyecto de “[Monitoreo Nacional de Prácticas y Síntomas COVID19 – MOVID](https://movid.netlify.app/somos/equipo/){target="_blank"}”. El objetivo de este estudio fue aprender sobre cómo se comporta el COVID-19 en nuestro país. Con esta información se propuso aportar a la gestión de la crisis sanitaria de ese momento. A su vez, las personas que participaron pudieron acceder a recomendaciones personalizadas acerca de su situación de salud vinculada al COVID-19 y recibir informes semanales de resultados de este estudio.
+
+- Abril-mayo de 2020. [Participación en el equipo asesor del Tercer Termómetro Social (TS)](anexos-dm/extension/20200618-Presentacion-TS3-VF.pdf){target="_blank"}, que se orientó a los efectos de la pandemia en el país. La encuesta se levantó poco antes de que se cumplieran 100 días de las primeras medidas para enfrentar el Covid-19 y estuvo focalizada en recoger información relacionada con salud en general, salud mental, además de distintas percepciones relacionadas con la crisis sanitaria. Este es una encuesta de opinión que realiza el Núcleo Milenio en Desarrollo Social (DESOC), junto con el Centro de Microdatos (CMD) y el Centro de Estudios de Conflicto y Cohesión Social (COES).
+
+- Noviembre de 2019[. Columna de opinión en CIPER académico](https://www.ciperchile.cl/2019/11/29/sobre-la-politizacion-de-los-secundarios-y-como-la-desigualdad-podria-empujarlos-al-radicalismo/){target="_blank"}: Sobre la politización de los secundarios y cómo la desigualdad podría empujarlos al radicalismo.
+
+- Abril de 2018. [Columna de opinión en La Segunda: ¿Qué dicen los jóvenes?](https://twitter.com/CentroCOES/status/989255227931934720){target="_blank"}
+
+## Administración universitaria y dirección académica
+
+Hasta mayo de 2024, mi cargo como investigador del Centro de Medición MIDE UC no contemplaba funciones de gestión o administración universitaria. Desde mi incorporación al Departamento de Psicología de la Universidad de Chile he asumido las siguientes responsabilidades de gestión académica:
+
+*Universidad de Chile:*
+
+- Marzo a diciembre de 2025. [Profesor Coordinador de Primer Año, carrera de Psicología, Facultad de Ciencias Sociales, Universidad de Chile](anexos-dm/administracion-universitaria/Coordinador-Psicol-DMiranda.pdf){target="_blank"}. Dedicación total certificada: 54 horas cronológicas.
+
+- [\[COMPLETAR: otros cargos o comisiones en la U. de Chile (consejo de Departamento o de Facultad, comité de carrera, comisiones de innovación curricular, coordinación de cursos o de memorias, etc.), con función, período y dedicación\]]{bg-color="#FFFF00"}
+
+*Fuera de la Universidad de Chile:*
+
+- Marzo de 2024 al presente. Editor Asociado a la revista [Large-scale Assessments in Education](anexos-dm/adicionales/LSAE-editor.pdf){target="_blank"}.
+
+- Marzo de 2022 al presente. [Miembro del Comité Ejecutivo del Estudio Social Longitudinal de Chile ELSOC](https://coes.cl/encuesta-panel/){target="_blank"}, desarrollado por el Centro de Estudios de Conflicto y Cohesión Social- COES.
+
+- Marzo de 2019 al presente. Miembro del Comité Editorial de [Citizenship Teaching & Learning](https://www.intellectbooks.com/citizenship-teaching-learning){target="_blank"} (Journal), Regional Editor for Latin America and the Caribbean.
+
+- 2018 a 2022. [Participación en el equipo de gestión de “Citizenship and Democratic Education Special Interest Group”](https://ciescande.weebly.com/sig-leadership.html){target="_blank"} de Comparative and International Education Society.
+
+# Formación académica propia
+
+De los principales académicos influyentes en mi carrera destaco a:
+
+Prof: Juan Carlos Castillo Valenzuela (Profesor Asociado, Departamento de Sociología, Universidad de Chile): he colaborado con él en múltiples roles, como asistente de investigación, como Tesista doctoral y como coinvestigador. Antes de saber que podía dedicarme a la carrera académica me motivó a participar en procesos de investigación, escritura de reportes, escritura de artículos o presentaciones en conferencias. En cada proceso destaco la disciplina, apertura a la innovación, orientación al desarrollo de las ciencias sociales y su rigurosidad teórica. Me inspiró a optar por la carrera académica como una vocación, siguiendo los estándares mencionados.
+
+Prof: Roberto González Gutiérrez (Profesor Titular, Escuela de Psicología, Pontificia Universidad Católica de Chile). Durante mis estudios de magíster en Psicología me integré al Laboratorio de Psicología Social dirigido por él. En este espacio tuve la oportunidad de participar como ayudante en múltiples actividades de investigación y ver como varios colegas que pasaron por este espacio emprendieron sus estudios doctorales. Al menos 10 de ellos se han doctorado en diferentes partes del mundo. El profesor González formó mi inquietud por la investigación y me inspiró por su dedicación a la formación de personas.
+
+Prof. Cristian Cox Donoso (Profesor Titular, Universidad Diego Portales): el Profesor Cox me dio la oportunidad de participar como coinvestigador en dos proyectos FONDECYT regulares dirigidos por él. En ese proceso pude apreciar su templanza, visión de largo plazo, profundidad teórica y madurez. Todas estas características han sido una fuente de inspiración.
+
+Prof. Andrés Sandoval-Hernández (Professor at Department of Education, University of Bath). El Profesor Sandoval me recibió, primero, en una estadía de investigación en el Data Processing Center en Hamburgo y, luego, como pasante doctoral en la Universidad de Bath. En el camino hemos colaborado en múltiples instancias, editando un libro, coautoreando artículos y capítulos de libros, y ejecutando proyectos. En todas ellas me ha inspirado a desarrollar investigación comparada con altos estándares y en la construcción de redes de investigación internacional.
+
+# Formación de nuevos académicos
+
+Debido a mi trayectoria relativamente inicial, aún no he participado de manera principal en la formación de nuevos académicos y/o investigadores/as que ocupen plazas académicas.
+
+# Difusión y comunicaciones
+
+## Libros y publicaciones periódicas
+
+ORCID: <https://orcid.org/0000-0002-3143-8502> · Google Académico: [perfil](https://scholar.google.cl/citations?hl=es&user=vdF2kZcAAAAJ&view_op=list_works&sortby=pubdate){target="_blank"} (2.129 citas, índice h 22, índice i10 33; al 19 de noviembre de 2026).
+
+### Libros y monografías
+
+Kubow, P., Webster, N., Strong, K., & Miranda, D. (coeditor). [Contestations of Citizenship, Education, and Democracy in an Era of Global Change: Children and Youth in Diverse International Contexts.](https://www.routledge.com/Contestations-of-Citizenship-Education-and-Democracy-in-an-Era-of-Global-Change-Children-and-Youth-in-Diverse-International-Contexts/Kubow-Webster-Strong-Miranda/p/book/9781032055138){target="_blank"} Routledge, New York, 2023, 284 páginas \[con referato externo\].
+
+Rouse, S. M., McDonald, J., Engstrom, R., Hanmer, M., González, R., Lay, S., & Miranda, D. (coautor). [Citizens of the World: Political Engagement and Policy Attitudes of Millenials across the Globle.](https://global.oup.com/academic/product/citizens-of-the-world-9780197599389?cc=us&lang=en&){target="_blank"} Oxford University Press, 2022, 160 páginas \[con referato externo\].
+
+Alé, Sol.; Duarte, C. & Miranda, D. (coeditor) [Saltar el torniquete: reflexiones desde las juventudes de octubre.](https://fondodeculturaeconomica.cl/products/saltar-el-torniquete-reflexiones-desde-las-juventudes-de-octubre){target="_blank"} Fondo de Cultura Económica, Chile, 2021, 196 páginas.
+
+Sandoval-Hernández, A; Isac, M. & Miranda, D. (coeditor). [Teaching Tolerance in a Globalized World](https://link.springer.com/book/10.1007/978-3-319-78692-6){target="_blank"}, Springer, Cham, Switzerland, 2018, 138 páginas \[con referato externo\].
+
+### Capítulos de libros
+
+Miranda, D., Castillo, J. C., Carrasco, K. & Herrera-Leighton, A. (2025). The Political Participation of Latin American School-age Students: Resources, political attitudes and civic learning opportunities. En H. Çakal, D. Sirlopú & V. Smith-Castro (Eds.), *The Political Psychology of Social Unrest in Latin America* (pp. 104-122). Routledge, Londres. https://doi.org/10.4324/9781003282174-6 \[con referato externo\].
+
+Miranda, D. & Carrasco, D. (2025). Inequalities on Willingness to Act Pro-environmentally (Capítulo 9). En M. M. Isac, A. Sandoval-Hernández & W. Sass (Eds.), *Knowledge and Willingness to Act Pro-Environmentally: Perspectives from IEA TIMSS 2019 and ICCS 2016 Data* (IEA Research for Education, Vol. 16, pp. 133-149). Springer, Cham. https://doi.org/10.1007/978-3-031-76033-4 \[con referato externo, acceso abierto\].
+
+Miranda, D. (2025). Civic education as a tool to mitigate social inequalities in civic outcomes: a literature review. En J. G. Janmaat & A. B. Dijkstra (Eds.), *Research Handbook on Education and Democracy* (pp. 322-341). Edward Elgar, Cheltenham. https://doi.org/10.4337/9781803928111 \[con referato externo\].
+
+Isac, M. M. & Miranda, D. (2025). Schools, citizenship education, and democratic dispositions among European youth: a comparative analysis using ICCS 2016 data. En J. G. Janmaat & A. B. Dijkstra (Eds.), *Research Handbook on Education and Democracy* (pp. 300-320). Edward Elgar, Cheltenham. https://doi.org/10.4337/9781803928111 \[con referato externo\].
+
+Kubow, P. K., Webster, N., Strong, K., & Miranda, D. (2023). [En *Contestations of Citizenship, Education, and Democracy in an Era of Global Change*. Routledge \[con referato externo\].](https://www.taylorfrancis.com/chapters/oa-edit/10.4324/9781003197881-1/contestations-citizenship-patricia-kubow-nicole-webster-krystal-strong-daniel-miranda){target="_blank"}
+
+[Kubow, P. K., Webster, N., Strong, K., & Miranda, D. (2023). [New Directions for Citizenship, Democracy, and Education.](https://www.taylorfrancis.com/chapters/oa-edit/10.4324/9781003197881-16/new-directions-citizenship-democracy-education-patricia-kubow-nicole-webster-krystal-strong-daniel-miranda){target="_blank"} En *Contestations of Citizenship, Education, and Democracy in an Era of Global Change*. Routledge \[con referato externo\].](https://www.taylorfrancis.com/chapters/oa-edit/10.4324/9781003197881-1/contestations-citizenship-patricia-kubow-nicole-webster-krystal-strong-daniel-miranda){target="_blank"}
+
+[Drury, J., Fernandes-Jesus, M., Mao, G., Ntontis, E., Perach, R., & Miranda, D. (2022). [How can covid mutual aid groups be sustained over time? The UK experience.](https://www.taylorfrancis.com/chapters/edit/10.4324/9781003301905-8/covid-mutual-aid-groups-sustained-time-uk-experience-john-drury-maria-fernandes-jesus-guanlan-mao-evangelos-ntontis-rotem-perach-daniel-miranda){target="_blank"} En Psychosocial Perspectives on Community Responses to Covid-19 (pp. 79-90). Routledge \[con referato externo\].](https://www.taylorfrancis.com/chapters/oa-edit/10.4324/9781003197881-1/contestations-citizenship-patricia-kubow-nicole-webster-krystal-strong-daniel-miranda){target="_blank"}
+
+[Miranda, D., Castillo, J.C, Miranda, C. and Conejeros, J. (2022). [Trust in political institutions and support for authoritarianism in Latin American students: does civic knowledge make a difference?.](https://www.cambridge.org/core/books/abs/psychology-of-democracy/trust-in-political-institutions-and-support-for-authoritarianism/33C878A199D51533C072CD2898828D51){target="_blank"} Psychology of Democracy: Of the People, By the People, For the People. Cambridge University Press: United Kingdom \[con referato externo\].](https://www.taylorfrancis.com/chapters/oa-edit/10.4324/9781003197881-1/contestations-citizenship-patricia-kubow-nicole-webster-krystal-strong-daniel-miranda){target="_blank"}
+
+[Miranda, D., Miranda, C., & Muñoz, L. (2021). [Latin American Political Culture and Citizenship Norms.](https://link.springer.com/chapter/10.1007/978-3-030-75746-5_6){target="_blank"} En E. Treviño, D. Carrasco, E. Claes, & K. J. Kennedy (Eds.), *Good Citizenship for the Next Generation: A Global Perspective Using IEA ICCS 2016 Data* (pp. 89-105). Springer International Publishing. <https://doi.org/10.1007/978-3-030-75746-5_6> \[con referato externo\].](https://www.taylorfrancis.com/chapters/oa-edit/10.4324/9781003197881-1/contestations-citizenship-patricia-kubow-nicole-webster-krystal-strong-daniel-miranda){target="_blank"}
+
+[Miranda, D. & Herrera-Leighton, A. (2021). [Conocimiento cívico: concepto, antecedentes y consecuencias.](https://ceppe.uc.cl/images/stories/libro/2libro-ciudadanias-educacion-y-juventudes.pdf){target="_blank"} En: Ciudadanía, juventud y escuela: Investigación y debates para el Chile del futuro. Ediciones UC: Chile. \[con referato externo\].](https://www.taylorfrancis.com/chapters/oa-edit/10.4324/9781003197881-1/contestations-citizenship-patricia-kubow-nicole-webster-krystal-strong-daniel-miranda){target="_blank"}
+
+[Miranda, D., Castillo, J.C & Bonilla A. (2021) [Measuring Attitudes Towards Gender Equality in International Tests: Implications for Their Validity](https://link.springer.com/chapter/10.1007/978-3-030-78390-7_11){target="_blank"}. In: Manzi J., García M.R., Taut S. (eds) Validity of Educational Assessments in Chile and Latin America. Springer, Cham \[con referato externo\].](https://www.taylorfrancis.com/chapters/oa-edit/10.4324/9781003197881-1/contestations-citizenship-patricia-kubow-nicole-webster-krystal-strong-daniel-miranda){target="_blank"}
+
+[Treviño E., Sandoval-Hernández A., Miranda, D., Rutkowski D., Matta T. (2021) [Invariance of Socioeconomic Status Scales in International Studies.](https://link.springer.com/chapter/10.1007/978-3-030-78390-7_10){target="_blank"} In: Manzi J., García M.R., Taut S. (eds) Validity of Educational Assessments in Chile and Latin America. Springer, Cham \[con referato externo\].](https://www.taylorfrancis.com/chapters/oa-edit/10.4324/9781003197881-1/contestations-citizenship-patricia-kubow-nicole-webster-krystal-strong-daniel-miranda){target="_blank"}
+
+In: Malak-Minkiewicz B., Torney-Purta J. (eds) Influences of the IEA Civic and Citizenship Education Studies. Springer, Cham \[con referato externo\].[Sandoval-Hernández A.& Miranda, D. (2021).](https://www.taylorfrancis.com/chapters/oa-edit/10.4324/9781003197881-1/contestations-citizenship-patricia-kubow-nicole-webster-krystal-strong-daniel-miranda){target="_blank"}
+
+Miranda, D. & Castillo, J.C. (2021). [Cambios en la participación política de los escolares](anexos-dm/publicaciones/Saltar-el-torniquete.pdf){target="_blank"} En: Eds. Alé, Duarte & Miranda: Saltar el torniquete: reflexiones desde las juventudes de octubre. Fondo de Cultura Económica, Chile \[con referato externo\].
+
+Castillo, JC., Miranda, D. & Bonilla, A. (2019). Capítulo: [Medición de actitudes hacia la igualdad de género en evaluaciones internacionales.](anexos-dm/publicaciones/Libro-Validez-LA.pdf){target="_blank"} Eds. Manzi, J.; García, M. & Taut, S. Validez de evaluaciones educacionales en Chile y Latinoamérica. Ediciones UC. Santiago, Chile \[con referato externo\].
+
+Treviño, E., Sandoval-Hernández. A., Miranda, D., Rutkowski, D., & Matta, T. (2019). [Capítulo: Invarianza de las escalas de nivel socioeconómico en estudios internacionales.](anexos-dm/publicaciones/Libro-Validez-LA.pdf){target="_blank"} Eds. Manzi, J.; García, M. & Taut, S. Validez de evaluaciones educacionales en Chile y Latinoamérica. Ediciones UC. Santiago, Chile \[con referato externo\].
+
+Sandoval-Hernández, A; Isac, M. & Miranda, D. (2018). [Introduction. (Chapter: 1).](https://link.springer.com/chapter/10.1007/978-3-319-78692-6_1){target="_blank"} Editores: Sandoval-Hernández, A; Isac, M. & Miranda, D. Teaching Tolerance in a Globalized World. Springer \[con referato externo\].
+
+Sandoval-Hernández, A; Isac, M. & Miranda, D. (2018). [Data and Methods. (Chapter: 2).](https://link.springer.com/chapter/10.1007/978-3-319-78692-6_2){target="_blank"} Editores: Sandoval-Hernández, A; Isac, M. & Miranda, D. Teaching Tolerance in a Globalized World. Springer \[con referato externo\].
+
+Miranda, D. & Castillo, J.C. (2018). [Measurement model and invariance testing of scales measuring egalitarian attitudes (Chapter: 3).](https://link.springer.com/chapter/10.1007/978-3-319-78692-6_3){target="_blank"} Editores: Sandoval-Hernández, A; Isac, M. & Miranda, D. Teaching Tolerance in a Globalized World. Springer \[con referato externo\].
+
+Miranda, D., Castillo, J.C. & Cumsille, P. (2018). [The political socialization of attitudes towards equality of rigths in comparative perspective (Chapter: 7)](https://link.springer.com/chapter/10.1007/978-3-319-78692-6_7){target="_blank"}. Editors: Sandoval-Hernández, A; Isac, M. & Miranda, D. Teaching Tolerance in a Globalized World. Springer. \[con referato externo\].
+
+Sandoval-Hernández, A; Isac, M. & Miranda, D. (2018). . Editors: Sandoval-Hernández, A; Isac, M. & Miranda, D. Teaching Tolerance in a Globalized World. Springer \[con referato externo\].
+
+Miranda, D., Castillo, J. & Sandoval-Hernández, A. (2015). Capítulo de libro: [Desigualdad económica y conocimiento cívico. Chile en comparación internacional.](https://jc-castillo.com/docs/miranda%20et%20al%202015%20conocimiento%20civico%20chile%20internacional%20libro.pdf){target="_blank"} Editores: Castillo, J. & Cox, C. Aprendizaje de la Ciudadanía: Contextos, experiencias y resultados. Ediciones UC, Santiago. Pp. 487- 524. Link: <https://www.jstor.org/stable/j.ctt1bhkq64.17> \[con referato externo\].
+
+### Revistas nacionales
+
+Miranda, D., Castillo, J. C., Urzúa, T., Tobar, N. & Aguayo, I. Medición de la autoeficacia digital en evaluaciones internacionales a gran escala: una comparación internacional entre ICILS y PISA. *Psykhe*, 2026. [\[COMPLETAR: volumen, páginas y DOI\]]{bg-color="#FFFF00"} (WoS/Scopus)
+
+Fuentes-Cerda, V., Errázuriz-Arellano, P., Campos-Soto, S., & Miranda, D. [Identificando las trayectorias de cambio terapéutico en psicoterapia breve en pacientes chilenos.](https://teps.cl/index.php/teps/article/view/363){target="_blank"} *Terapia psicológica*, 41(1), 1-18, 2023. (Scopus)
+
+Miranda, D., & Iturra, J. [La importancia de la invarianza métrica para la investigación en sociología.](https://revistadesociologia.uchile.cl/index.php/RDS/article/view/68153){target="_blank"} *Revista de Sociología*, *37*(1), 127-146, 2022. (Latindex-Directorio)
+
+Castillo, J., Madero, I. & Miranda, D. [Educación, equidad y creencias distributivas: evidencia del caso chileno.](https://revistas.udec.cl/index.php/sociedad_hoy/article/view/788){target="_blank"} *Revista Sociedad Hoy*, 24, 13-31, 2014. (Latindex)
+
+Castillo, J., Miranda, D. & Carrasco, D. [Percepción de desigualdad económica en Chile: Medición, diferencias y determinantes.](https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0718-22282012000100007){target="_blank"} *Psykhé*, 21(1), 99-114, 2012. (Scopus)
+
+### Revistas internacionales
+
+Miranda, D. & Sánchez-Barría, F. Two Pathways to Political Participation. Revisiting the Gamson Hypothesis in Adolescents in the Context of the Chilean Social Outburst. *Journal of Politics in Latin America*, 2026 (OnlineFirst, publicado el 2 de septiembre de 2026, acceso abierto). https://doi.org/10.1177/1866802X261483670 [\[VERIFICAR indexación (WoS/Scopus) y volumen\]]{bg-color="#FFFF00"}
+
+Donoso, S., Miranda, D. & Disi Pavlic, R. What is Left After the Protest Wave? Tracing Generational Patterns of Political Engagement in the Wake of Chile’s Student Movement. *The Sociological Quarterly*, 67(4), 970-999, 2026. https://doi.org/10.1080/00380253.2026.2649264 (WoS)
+
+Varela, J., Miranda, D., Hidalgo, R., Chuecas, M. J. & Cubillos, J. Latent Profile Analysis of Socioemotional Wellbeing among Chilean Adolescents. *Applied Research in Quality of Life*, 2026. [\[COMPLETAR: volumen, páginas y DOI\]]{bg-color="#FFFF00"} (WoS)
+
+Marinovic, A., Zava, F., Miranda, D. & Luengo Kanacri, B. P. When do prosocial persons become civic activists? Intergroup trust as a moderator of the relationship between prosocial behaviors and civic participation. *Peace and Conflict: Journal of Peace Psychology*, 2025. [\[COMPLETAR: volumen, páginas y DOI\]]{bg-color="#FFFF00"} (WoS)
+
+Miranda, D. [Socio-economic inequalities of families and their differential impact on types of political participation in the new generation of 24 countries](https://doi.org/10.1080/02134748.2023.2239576){target="_blank"} (Desigualdades socio-económicas familiares y su impacto diferencial sobre tipos de participación política de nuevas generaciones en 24 países). *International Journal of Social Psychology*, 38(3), 602-641, 2023. (WoS)
+
+Perach, R., Fernandes‐Jesus, M., Miranda, D., Mao, G., Ntontis, E., Cocking, C., McTague, M., Semlyen, J., & Drury, J. [Can group‐based strategies increase community resilience? Longitudinal predictors of sustained participation in Covid‐19 mutual aid and community support groups](https://doi.org/10.1111/jasp.12995){target="_blank"}*. Journal of Applied Social Psychology*, 53(11), 1059–1075, 2023. (WoS)
+
+Encina, Y.; Berger, C. & Miranda, D. [Authoritative School Climate as a context for civic socialization.](https://doi.org/10.1016/j.ijedudev.2023.102752){target="_blank"} *International Journal of Educational Development*, 98, 102752, 2023. (WoS)
+
+Luengo-Kanacri, P.; Jiménez-Moya, G.; Miranda, D. & Marinovic, D. [When civic knowledge matters but is not enough: The role of classroom climate and citizenship self-efficacy on different facets of civic engagement.](https://doi.org/10.1386/ctl_00113_1){target="_blank"} *Citizenship Teaching and Learning*, 118(1), 119-140, 2023. (Scopus)
+
+Ibarra, C.; Sánchez-Bachmann, M.; Cox, C. & Miranda, D. [The meaning of citizenship: Identifying the beliefs of teachers responsible for citizenship education in Chile.](https://doi.org/10.1080/00933104.2022.2150590){target="_blank"} *Theory & Research in Social Education*, 1-22, 2022. (WoS)
+
+Castillo, J.C.; Bonhomme, M.; Miranda, D. & Iturra, J. [Social cohesion and attitudinal changes towards migration: A longitudinal perspective amid the COVID-19 pandemic.](https://doi.org/10.3389/fsoc.2022.1009567){target="_blank"} *Frontiers in Sociology*, 7, 1009567, 2022. (Scopus)
+
+González, R.; Chayinska, M.;Plaza, A.; Bargsted, M. & Miranda, D. [A longitudinal examination of the factors that facilitate and hinder support for conservative and progressive social movements.](https://doi.org/10.1002/ejsp.2893){target="_blank"} *European Journal of Social Psychology*, 52(7), 1031-1046, 2022. (WoS)
+
+Sánchez-Barría, F., & Miranda, D. (2022). [Political socialization and legitimization of radical actions in high school youth: Evidence from Chile.](https://doi.org/10.1080/02134748.2022.2096255){target="_blank"} *International Journal of Social Psychology*, 37(3), 554-585, 2022. (WoS)
+
+Carlin, R. E., González, R., Love, G. J., Miranda, D. A., & Navia, P. D. [Ethnicity or Policy? The Conditioning of Intergroup Trust in the Context of Ethnic Conflict.](https://doi.org/10.1111/pops.12747){target="_blank"} *Political Psychology*, 43(2), 201-220, 2021. (WoS)
+
+Chayinska, M., Miranda, D., & González, R. [A longitudinal study of the bidirectional causal relationships between online political participation and offline collective action.](https://doi.org/10.1016/j.chb.2021.106810){target="_blank"} *Computers in Human Behavior*, 121, 106810, 2021. (WoS)
+
+Miranda, D.; Castillo, J. & Sandoval-Hernandez, A. *Youth & Society*, 52(2), 251-271, 2020. (WoS)
+
+Sandoval-Hernádez, A; Rutkowsky, D; Matta, T. & Miranda, D. (2019). [Back to the drawing board: Can we compare socioeconomic background scales?](https://www.educacionfpydeportes.gob.es/revista-de-educacion/en/numeros-revista-educacion/numeros-anteriores/2019/383/383-2.html){target="_blank"} *Revista de Educación*, 383, 37-61, 2019. (WoS)
+
+Jiménez-Moya, G.; Miranda, D.; Drury, J.; González, R. & Saavedra-Morales, P. [When nonactivists care: Group efficacy mediates the effect of social identification and perceived instability on the legitimacy of collective action.](https://doi.org/10.1177/1368430217751631){target="_blank"} *Group Processes & Intergroup Relations*, 22(2), 563-577, 2019. (WoS)
+
+Gonzalez, R.; Lickel, B.; Gupta, M.; Tropp, L.; Luengo, P.; Mora, E.; De Tezanos-Pinto; P.; Berger, C.; Valdenegro, D.; Cayul, O.; Miranda, D.; Saavedra, P. & Bernardino, M. (2017). [Ethnic Identity development and Acculturation Preferences among Minority and Majority Youth: Group Norms and Contact.](https://doi.org/10.1111/cdev.12788){target="_blank"} *Child Development*, 88(2), 743-760, 2017. (WoS)
+
+Luengo-Kanacri, B.; González, R.; Valdenegro, D.; Jimenéz-Moya, G.; Saavedra, P.; Mora, A.; Miranda, D.; Silva, L. & Pastorelli, C. [Civic engagement and giving behavior: the role of empathy end beliefs about poverty.](https://doi.org/10.1080/00224545.2016.1148006){target="_blank"} *The Journal of Social Psychology*, 156(3), 256-271, 2016. (WoS)
+
+Drury, J.; Brown, R.; Gonzalez, R. & Miranda, D. (2015). [Emergent Social Identity and Group Norms Predict Solidarity in a Disaster: Collective Behavior in the 2010 Chile Earthquake.](https://onlinelibrary.wiley.com/doi/full/10.1002/ejsp.2146){target="_blank"} *European Journal of Social Psychology*, 46(2), 209-223, 2015. (WoS)
+
+Bascopé, M.; Bonhomme, M.; Cox, C.; Castillo, J.C. & Miranda, D. [Curricular guidelines and citizenship attitudes in Latin American Students: a comparative analysis.](http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S1692-715X2015000200044){target="_blank"} *Revista Latinoamericana de Ciencias Sociales, Niñez y Juventud*, 13(2),1169-1190, 2015. (Scopus)
+
+Castillo, J., Miranda, D., Bonhomme, M., Cox, C., & Bascopé, M. [Mitigating the political participation gap from the school: The roles of civic knowledge and classroom climate.](https://doi.org/10.1080/13676261.2014.933199){target="_blank"} *Journal of Youth Studies*, 18(1), 16-35, 2015. (WoS)
+
+Castillo, J., Miranda, D., Bonhomme, M., Cox, C., & Bascopé, M. (2014). [Social inequality and changes on student’s expected political participation.](https://doi.org/10.1177/1746197914520650){target="_blank"} *Journal of Education, Citizenship and Social Justice*, 9(2), 140-156, 2014. (WoS)
+
+Castillo, J., Miranda, D. & Madero, I. [Todos somos de clase media: Sobre el estatus social subjetivo en Chile.](https://muse.jhu.edu/article/504733){target="_blank"} *Latin American Research Review*, 48(1), 155-173, 2013. (WoS)
+
+Castillo, J. Leal. P. & Madero, I. & Miranda, D. [¿Somos los chilenos igualmente solidarios?](https://www.scielo.br/j/op/a/7GxBrSwzvQJCZSGTVgZ3vjg/){target="_blank"} *Opiniao Publica*, 18(1),154-176, 2012. (Scopus)
+
+## Otros escritos e informes
+
+[\[COMPLETAR: reportes ELSOC u otros informes 2025-2026\]]{bg-color="#FFFF00"}
+
+González, R., Bargsted, M., Miranda, D., Figueiredo, A., Olivares, D., Ahumada, D. & González, A (2024). [Radiografía de la Cohesión Social en Chile 2016-2023](https://coes.cl/wp-content/uploads/Radiografia-Cohesion-social-2016-2023-version-completa.pdf){target="_blank"}. Reporte de resultados.
+
+González, R., Bargsted, M., Figueiredo, A., Miranda, D., Cerda, E., Salas-Lewin, R. & Delgado, C. (2023). [Radiografía del Cambio Social en Chile 2016-2022](https://radiografia-cambio-social-2016-2022.netlify.app/){target="_blank"}. Estudio Social Longitudinal de Chile. Reporte de resultados.
+
+González, R., Bargsted, M., Figueiredo, A., Miranda, D., Cerda, E., Salas-Lewin, R. & Delgado, C. (2022). [Radiografía del Cambio Social en Chile 2016-2018](https://coes.cl/wp-content/uploads/Reporte_Radiografia_del_Cambio_Social_2016_2018_Definitiva.pdf){target="_blank"}. Estudio Social Longitudinal de Chile. Reporte de resultados.
+
+Miranda, D. & Carrasco, D. (2020). [¿Cuánto aportan las escuelas en diversos aspectos de la formación ciudadana?: Evidencias desde ICCS](https://mideuc.cl/wp-content/uploads/2022/11/MIDevidencias-N21.pdf){target="_blank"}. Midevidencias, 21, 1-6.
+
+González, R., Bargsted, M., Carvacho, H., Miranda, D., Muñoz, B. & Plaza, A. (2019). [Radiografía del Cambio Social en Chile 2016-2021](https://radiografia-cambio-social-2016-2021.netlify.app/){target="_blank"}. Estudio Social Longitudinal de Chile. Reporte de resultados.
+
+Sandoval-Hernández, A., Miranda, D. & Isac, M.M. (2019). [Measurement Strategy for SDG Global Indicator 4.7.1 and Thematic Indicators 4.7.4 and 4.7.5 using International Large-Scale Assessments in Education.](http://gaml.uis.unesco.org/wp-content/uploads/sites/2/2019/08/GAML6-REF-9-measurement-strategy-for-4.7.1-4.7.4-4.7.5.pdf){target="_blank"} UNESCO Institute for Statistics.
+
+Sandoval-Hernández, A., Miranda, D., Treviño, E., & Schmelkes, S. (2019). [Is democracy overrated? Latin American students’ support for dictatorships.](https://www.iea.nl/sites/default/files/2019-10/Compass_brief_7%20Is%20Democracy%20Overrated.pdf){target="_blank"} IEA Compass: Briefs in Education: N°7. Amsterdam: International Association for the Evaluation of Educational Achievement.
+
+Sandoval-Hernández, A. & Miranda, D.(2018). [Background paper: Global Monitoring Report 2018: Exploring ICCS 2016 to measure progress toward target 4.7](https://unesdoc.unesco.org/ark:/48223/pf0000266073){target="_blank"}. UNESCODOC. pp. 1-278.
+
+Miranda, D. (2018). [Socialización política de las actitudes hacia la igualdad de derechos (The political socialization of attitudes toward equality of rights)](https://www.coes.cl/wp-content/uploads/2018/07/36.-Socializacion-politica-de-las-actitudes-hacia-la-igualdad-de-derechos.pdf){target="_blank"}. Serie Documentos de Trabajo COES, Documento de trabajo N°36, pp. 1-13.
+
+González, R., Bargsted, M., Miranda, D., Carvacho, H., Tropp, L., van Laar, C., Muñoz, B., Álvarez, B., De-Tezanos Pinto, P., Doña, C., Valdenegro, D., Volgger, A. & Cheyre, M. (2017). [Resultados Primera Ola. Estudio Longitudinal Social de Chile - ELSOC.](https://www.coes.cl/wp-content/uploads/2017/07/NCPP01_Resultado-Primera-Ola-ELSOC_Modulo-1_Cohesion-Social-y-Migracion.pdf){target="_blank"} (Notas COES de Política Pública N°1). Santiago, Chile: COES.
+
+Castillo, J.; Miranda, D. & Torres, P. (2011). Authoritarianism, social dominance and trust in public institutions (Inf. Tec. Santiago, Chile: P. Universidad Católica de Chile, Centro de Medición MIDEUC.
+
+Castillo, J.; Miranda, D. & Carrasco, D. (2011). La percepción desigual de la desigualdad. Una Comparación de indicadores de percepción de desigualdad económica (Inf. Tec. NºIT1101). Santiago, Chile: P. Universidad Católica de Chile, Centro de Medición MIDEUC.
+
+Martínez, M.L., González, R., Canales, L., y Miranda, D (2010). [Informe Regional 2010: Evaluación de Programas Exitosos de Formación Ciudadana. Sistema Regional de Evaluación y Desarrollo de Competencias Ciudadanas (SREDECC).](https://www.mineducacion.gov.co/1621/articles-246644_archivo_pdf_informe_final_estudio_programas.pdf){target="_blank"} Banco Interamericano de Desarrollo (BID), 2010.
+
+## Ponencias a congresos
+
+### Sometidas a referato y publicadas in extenso
+
+No aplica.
+
+### Otras ponencias nacionales
+
+Encina, Y., Miranda, D. & Berger, C. (2024). Influencias familiares y efectos del clima escolar en el compromiso cívico de los estudiantes. Ponencia libre presentada en el “X Congreso de la Sociedad Científica de Psicología de Chile (SCP)”, 13 al 15 de noviembre de 2024. Campus Pucón, Universidad de La Frontera, Chile.
+
+Miranda, D., Lay, S., Manzi, J., González, R., Carvacho, H. & Haye, A. (2024). Simposio: La identificación política y la evolución de la memoria colectiva del golpe militar en Chile (tres ponencias). Presentado en el “X Congreso de la Sociedad Científica de Psicología de Chile (SCP)”, 13 al 15 de noviembre de 2024. Campus Pucón, Universidad de La Frontera, Chile.
+
+Sánchez-Barría & Miranda, D. (2023). Revisitando la “Hipótesis de Gamson” en la participación política juvenil en el Chile actual. Artículo presentado en “XIV Congreso chileno de Ciencia Política 2023” (13, 14 y 15 de diciembre). Santiago de Chile.
+
+Sánchez-Barría & Miranda, D. (2023). [Dos vías a la movilización: revisitando la “Hipótesis de Gamson” en la participación política juvenil](anexos-dm/conferencias/Congreso-Sociologia-2024.pdf){target="_blank"}. Artículo presentado en “XII Congreso chileno de Sociología 2024” (2, 3 y 4 de mayo). Santiago de Chile.
+
+Miranda, D., De Tezanos-Pinto, D. & Chayinska, M. (2022). [Asociación entre participación online y offline durante las protestas de Chile 2019.](anexos-dm/conferencias/SCP-2022.pdf){target="_blank"} Presentado en el VIII Congreso de la Sociedad Científica de Psicología de Chile (SCP). 17 y 18 de noviembre. Puerto Natales, Chile.
+
+Miranda, D., Castillo, J.; Miranda, C. & Conejeros, J. (2019) [Conocimiento cívico y legitimidad de la democracia.](anexos-dm/conferencias/CIIE-2019.pdf){target="_blank"} Artículo presentado en “5° Congreso Interdisciplinario de Investigación en Educación CIIE 2019” (20, 21 y 22 de agosto). Santiago de Chile.
+
+Miranda, D. & Muñoz, L. (2019) [Sexismo e igualitarismo: una propuesta de medición usando ICCS 2016.](anexos-dm/conferencias/Daniel-Miranda-y-Loreto-Munoz-Certificado-ponencia.pdf){target="_blank"} Artículo presentado en “ACMME - Primer Encuentro Nacional de Métodos y Técnicas en Investigación Social” (8 y 9 de Abril). Rancagua, Chile.
+
+Miranda, D., Castillo, J.; Cox, C., Bascopé, M., & Bonhomme, J. (2015) [Origen Social, Conocimiento Cívico y Participación en la Escuela: El caso chileno](anexos-dm/conferencias/Programa-CIEP2015-3012.pdf){target="_blank"}. Artículo presentado en “I Congreso Internacional sobre Educación y Pobreza 2015” CIEP (enero 8-10, 2015). Santiago de Chile.
+
+Castillo, J.; Miranda, D.; Sandoval-Hernandez, A.; Cox, C., Bascopé, M., & Bonhomme, J. (2015) [Lo civil y lo cívico: hacia un modelo conceptual y de medición de ciudadanía escolar](anexos-dm/conferencias/Programa-CIEP2015-3012.pdf){target="_blank"}. Artículo presentado en “I Congreso Internacional sobre Educación y Pobreza 2015” CIEP (Enero 8-10, 2015). Santiago de Chile.
+
+Miranda, D., Castillo, J., Cox, C., Bascopé, M., & Bonhomme, J. (2014). [Conocimiento cívico y ciudadanía en las escuelas de América Latina.](anexos-dm/conferencias/CIIE-2014.pdf){target="_blank"} Artículo presentado en “III Congreso Interdisciplinario de Investigación en Educación – CIIE” (agosto 21-22). Santiago de Chile.
+
+Miranda, D., Castillo, J., Cox, C., Bascopé, M., & Bonhomme, J. (2013) Autoritarismo y Valores Democráticos en Estudiantes Latinoamericanos. Artículo presentado en “XXIX Congreso Latinoamericano de Sociología” (29 de Sept - 03 de Oct).
+
+Castillo, J., Cox, C., Miranda, D., Bascopé, M., & Bonhomme, J. (2012) [Desigualdad, Conocimiento cívico y expectativas de participación política de estudiantes en Chile.](anexos-dm/conferencias/Gmail-EXPOSITORES-APROBADOS-VII-CONGRESO-CHILENO-PS.pdf){target="_blank"} Artículo presentado en “VII Congreso Chileno de Psicología” (noviembre 14-16)
+
+Castillo, J., Cox, C., Miranda, D., Bascopé, M., & Bonhomme, J. (2012) Desigualdad, Conocimiento cívico y expectativas de participación política de estudiantes en Chile. Artículo presentado en “Congreso Nacional de Sociología 2012” (octubre 24-26)
+
+Castillo, J., Madero, I., Miranda, D. (2012) Educación, equidad y creencias distributivas: Evidencia del caso chileno. Artículo presentado en “Congreso Nacional de Sociología 2012” (octubre 24-26)
+
+Castillo, J., Cox, C., Miranda, D., Bascopé, M., & Escobar, J. (2012) Desigualdad económica y cambios en las expectativas de participación de estudiantes en Chile. Artículo presentado en “Congreso Interdisciplinario de Investigación en Educación – CIIE” (agosto 23-24). Santiago de Chile.
+
+Miranda, D. & Silva, J. (2012). ¿Cuáles son las fuentes de sentido en la vida de los jóvenes? Artículo presentado en “II Seminario Internacional: Jóvenes, Cultura y Religión UCM”, Talca- 09 de agosto de 2012.
+
+Castillo, J., Cox, C., Miranda, D., Bascopé, M., Madero, I. & Escobar, J. (2011) Actitudes hacia la democracia en estudiantes chilenos. Artículo presentado en “Primer Congreso Nacional de Ciencias Sociales y Educación”. Valparaíso: Universidad Católica de Valparaíso.
+
+Castillo, J.; Miranda, D. & Madero, I. (2011). Todos somos de Clase Media: Sobre el Estatus Social Subjetivo en Chile. Artículo presentado en “VI Congreso Chileno de Sociología y Encuentro Pre-ALAS”. 13 de abril de 2011.
+
+### Otras ponencias internacionales
+
+[\[COMPLETAR: otras ponencias internacionales 2025-2026\]]{bg-color="#FFFF00"}
+
+Miranda, D. (2025). Discussant en el “X Seminario I dati del e per il sistema educativo: strumenti per la ricerca e la didattica”, INVALSI. Roma, Italia. 19 al 21 de noviembre de 2025.
+
+Miranda, D. (2025). Expositor en la mesa “Desafíos digitales y la crisis democrática”. XII Conferencia Internacional COES: “¿Es la democracia realmente el problema? Evolución, impacto y futuro de la crisis de las democracias”. Santiago, Chile. 22 al 24 de octubre de 2025.
+
+Miranda, D. (2027). Organizador de la sesión “Political Socialization of Younger Generations: Participation, Beliefs, Attitudes and Knowledge” (sesión conjunta RC42 Social Psychology y RC34 Sociology of Youth), aceptada para el “XXI ISA World Congress of Sociology”, 4 al 10 de julio de 2027.
+
+Miranda, D., Castillo, J. C., Tobar, N., Aguayo, I. & Urzúa, T. (2025). Gender Differences in Digital Self-Efficacy at School across 52 Countries. Presentado en el “V ISA Forum of Sociology”. Rabat, Marruecos. 6 al 11 de julio de 2025.
+
+Sánchez-Barría, F. & Miranda, D. (2025). Gamson’s Mistrustful-Efficacious Political Participation Hypothesis in Adolescents from 24 Countries. Presentado en el “V ISA Forum of Sociology”. Rabat, Marruecos. 9 de julio de 2025.
+
+Miranda, D., Manzi, J., González, R., Carvacho, H., Lay, S. & Haye, A. (2024). [The role of support and subjective knowledge of the 1973 Coup D’etat shaping the trust in Political and order institutions.](anexos-dm/conferencias/ISPP2024.pdf){target="_blank"} Presentado en “The 47th Annual Scientific Meeting of International Society of Political Psychology ISPP”, Santiago: Chile. 4-6 julio 2024.
+
+Manzi, J., González, R., Carvacho, H., Lay, S., Miranda, D., & Haye, A. (2024). [Political Identification and the Evolution of Collective Memory of the Military Coup in Chile (página 129)](anexos-dm/conferencias/ISPP2024-program.pdf){target="_blank"}. Presentado en “The 47th Annual Scientific Meeting of International Society of Political Psychology ISPP”, Santiago: Chile. 4-6 julio 2024.
+
+Lay, S., Miranda, D., Manzi, J., González, R., Carvacho, H. & Haye, A. (2024). [Affective Polarization and Collective Memory of the Military Coup (página 129).](anexos-dm/conferencias/ISPP2024-program.pdf){target="_blank"} Presentado en “The 47th Annual Scientific Meeting of International Society of Political Psychology ISPP”, Santiago: Chile. 4-6 julio 2024.
+
+Miranda, D., Carrasco, D. & Treviño, E. (2024). [Pro-environmental dispositions among secondary school students: exploring the gender and socioeconomic gaps](http://tinyurl.com/22msme6z){target="_blank"}. Presentado en la “67th Annual conference of Comparative and International Education Society (10 al 14 de marzo). Miami, USA.
+
+Carrasco, D., Miranda, D. & Treviño, E. (2024). [Pro-environmental dispositions among secondary school students: a study on the role of the schools.](http://tinyurl.com/22msme6z){target="_blank"}. Presentado en la “67th Annual conference of Comparative and International Education Society (10 al 14 de marzo). Miami, USA.
+
+Miranda, D. & Castillo, J.C. (2023). [Digital Citizen Participation in Chile and Italy: description of gaps and their relationship with other forms of participation](https://serviziostatistico.invalsi.it/wp-content/uploads/2023/12/ricerca_7_Miranda_Castillo_Fuenzalida.pdf){target="_blank"}. Presentado en “VIII Seminar INVALSI data: a tool for teaching and scientific research”, Roma: Italia. 23-26 noviembre de 2023.
+
+Miranda, D. (2023). Youth Citizen Participation: Between Social Reproduction and Political Socialization (página 264). Presentado en XX ISA World Congress of Sociology, Melbourne: Australia. 26 de Junio – 01 de Julio de 2023.
+
+Miranda, D. (2023). Session organizer of “Political Socialization in changing times: generations and agents. Presentado en XX ISA World Congress of Sociology, Melbourne: Australia. 26 de Junio – 01 de Julio de 2023.
+
+Miranda, D. & Castillo, J.C. (2023). Youth predispositions to disruptive political actions: educational level, civic knowledge and digital media in unequal contexts. Presentado en “The 46th Annual Scientific Meeting of International Society of Political Psychology ISPP”, Montreal: Canada. 9-11 Julio 2023.
+
+Miranda, D. (2022). [Moderador de la mesa: Participación ciudadana y convivencia en el contexto escolar.](anexos-dm/conferencias/IX-Conferencia-COES.jpeg){target="_blank"} En la IX Conferencia Internacional COES: "El futuro de lo común: desafíos para la convivencia". Santiago. 10 y 11 noviembre.
+
+Miranda, D. (2022). [Disposición de jóvenes a participar en acciones políticas disruptivas: la brecha socioeconómica y de género en contextos desiguales](anexos-dm/conferencias/IX-COES.pdf){target="_blank"}. Presentado en la IX Conferencia Internacional COES: "El futuro de lo común: desafíos para la convivencia". Santiago. 10 y 11 de noviembre.
+
+Miranda, D. & Castillo, J.C. (2022). [Youth pre-dispositions to participate in disruptive political actions across countries and years: the gender and socioeconomic's gap in unequal contexts (página 56)](anexos-dm/conferencias/INVALSI-2022.pdf){target="_blank"}. Artículo presentado en “I dati INVALSI: uno strumento per la recerca” (27 al 30 de octubre). Roma, Italia.
+
+Miranda, D. & Sanchez, F. (2022). [Political Socialisation and Legitimation of Radical Actions in Adolescents Evidence from Chile (página 88).](anexos-dm/conferencias/ISPP-2022.pdf){target="_blank"} Presentado en Annual Meeting of International Society of Political Psychology ISPP. Atenas: Grecia. 14-17 Julio de 2022.
+
+González, R.; Chayinska, M.; Plaza, A.; Bargsted, M. & Miranda, D. (2022). [A longitudinal examination of the factors that facilitate and hinder support for conservative and progressive social movements (página 80).](anexos-dm/conferencias/ISPP-2022.pdf){target="_blank"} Presentado en “Annual Meeting of International Society of Political Psychology ISPP”. Atenas: Grecia. 14-17 Julio de 2022.
+
+Treviño, E.; Sandoval-Hernández, A.; Isac, M.M.; Miranda, D.; Carrasco,, D. & Kennedy, K. (2022). En “66th annual conference of Comparative and International Education Society” (18 al 22 de Abril). Minneapolis, USA: Virtual.
+
+Kubow, P; Strong, K. & Miranda, D. (2022). [Contesting framings of citizenship: Interrogations of the national and the global.](https://tinyurl.com/yxf4k9ax){target="_blank"} Presentado en “66th annual conference of Comparative and International Education Society” (18 al 22 de Abril). Minneapolis, USA: Virtual.
+
+Miranda, D. (2022). [Cross-National Equivalence of Political Participation in Early Adolescence across 24 Countries.](https://tinyurl.com/yyyrlxsc){target="_blank"} Presentado en “66th annual conference of Comparative and International Education Society” (18 al 22 de Abril). Minneapolis, USA: Virtual.
+
+Miranda, D. (2022). [Discussant en la mesa: Contesting citizenship’s framings: Interrogations of the global-local and implications for formal citizenship education.](https://tinyurl.com/yxf4k9ax){target="_blank"} En “66th annual conference of Comparative and International Education Society” (18 al 22 de Abril). Minneapolis, USA: Virtual.
+
+Miranda, D., Miranda, C. & Muñoz, L. (2021). [Latin American Political Culture and Citizenship Norms (página 58)](anexos-dm/conferencias/IEA-IRC-2021-Program.pdf){target="_blank"}. Presentado en “9th IEA International Research Conference” (November 16-18). Dubai, United Arab Emirates: Virtual.
+
+Sandoval-Hernández & Miranda, D. (2021). [The Influence of IEA Civic Education Studies on Policy and Practice in Latin America (página 78)](anexos-dm/conferencias/IEA-IRC-2021-Program.pdf){target="_blank"}. Presentado en “9th IEA International Research Conference” (November 16-18). Dubai, United Arab Emirates: Virtual.
+
+Miranda, D., Iturra, J., Montenegro, J. & Sepúlveda, K. (2021). [¿La Manzana Cae Lejos Del Árbol? Incidencia de La Socialización Familiar y Escolar de La Participación Política de Jóvenes Secundarios.](https://www.youtube.com/watch?v=4P1x54WbxoE){target="_blank"} Presentado en “VIII Conferencia Internacional COES: Cohesión Social en tiempos turbulentos”. Santiago: Virtual. 15-17 November 2021.
+
+Miranda, D. Iturra, J., Herrera-Leighton, A. & Carrasco, K. (2021). [El Rol de La Familia y La Escuela En La Socialización Política de Las Actitudes Hacia La Igualdad de Género.](anexos-dm/conferencias/DEMOSAL-VI-Seminario-Internacional.pdf){target="_blank"} Presented en el “VI Seminario Internacional: Desigualdad y Movilidad Social en América Latina”. México City: Virtual. 3-5 de noviembre de 2021.
+
+Miranda, D. & Herrera-Leighton, A. (2021). [Conocimiento Cívico: Concepto, Antecedentes y Consecuencias](anexos-dm/conferencias/COLMEE-2021.pdf){target="_blank"}. Presentado en Congreso Latinoamericano de Medición y Evaluación Educacional - COLMEE 2021 (octubre 20-21, 2021). Santiago, Chile: Virtual.
+
+Miranda, D. (2021). [Discussant en la mesa: Research in students attitudes and students achievement](https://tinyurl.com/y9s9ksus){target="_blank"}. En “65th annual conference of Comparative and International Education Society” (Abril 25 al 2 de Mayo). Virtual.
+
+Miranda, D. (2021). [An assessment of measurement invariance in international large-scale assessments (ilsas)](https://tinyurl.com/yao4hx3u){target="_blank"}. An illustration using attitudinal measures collected in ICCS 2016. Artículo presentado en “65th annual conference of Comparative and International Education Society” (Abril 25 al 2 de Mayo). Virtual.
+
+Miranda, D. & Sánchez, F. (2020). [Estallido social y participación disruptiva en jóvenes secundarios: El rol de la socialización política en un escenario quasiexperimental](https://coes.cl/2020/09/07/resultados-ponencias-aceptadas-conferencia-coes-desoc-2020/?fbclid=IwY2xjawEVPsRleHRuA2FlbQIxMAABHZtDLbYCNbjzdr-abt44KkUMpRKbgxcSZ4TSyDxpzQ2lsuUYeMlBqiK58g_aem_fa8-Vnup0jfJa3zu-Xr8cw){target="_blank"}. Presentado en “Conferencia Internacional COES DESOC”. Santiago: Virtual. 4 y 5 de noviembre de 2020.
+
+Miranda, D.; Chayinska, M. & Gonzalez (2020). About the relation between offline and online participation: longitudinal evidence from Chile. WAPOR 73rd Annual Conference and WAPOR LATAM 9th Congress. Virtual conference: Octubre 6 - 10, 2020.
+
+Miranda, D., Miranda, C. & Muñoz, L. (2020). [Latin American Political Culture and Citizenship Norms](http://tinyurl.com/qktf9lm){target="_blank"}. Paper presented at “64th annual conference of Comparative and International Education Society” (22 al 26 de marzo de 2020). Miami, USA. Virtual.
+
+Miranda, D. & Sandoval-Hernádez, A. (2019). [Does scholarly culture enhance literacy and citizenship? A comparison between Italy and Chile (página 12)](anexos-dm/conferencias/INVALSI-2019.pdf){target="_blank"}. Artículo presentado en “I dati INVALSI: uno strumento per la recerca” (noviembre 29 a Diciembre 1th). Roma, Italia.
+
+Miranda, D. & Castillo, J.C. (2019). [Change or stability? Civic knowledge, classroom climate and expected political partipation in Latin American Schools (página 109)](anexos-dm/conferencias/ISPP-2019.pdf){target="_blank"}. Artículo presentado en “Annual Meeting of International Society of Political Psychology - ISPP” (Julio 12-15). Lisboa, Portugal.
+
+Miranda, D. & Castillo, J.C. (2019). . Artículo presentado en “Annual Meeting of International Society of Political Psychology - ISPP” (Julio 12-15). Lisboa, Portugal.
+
+Sandoval-Hernández, A; Isac, M. & Miranda, D. (2019). [Teaching Tolerance in a Globalized World (página 20)](https://www.dropbox.com/scl/fi/pnr0d3u9onbsngddqizcq/IRC-2019.pdf?rlkey=tdyy5g0mhvz9m5dgxrl39my60&dl=0){target="_blank"}. Libro presentado en “8th IEA International Research Conference” (Junio 26-28). Copenhagen, Dinamarca.
+
+Miranda, D. & Castillo, J.C. (2019). . Artículo presentado en “8th IEA International Research Conference” (Junio 26-28). Copenhagen, Dinamarca.
+
+Miranda, D. & Castillo, J.C. (2019). [Can schools mitigate the socioeconomic participation gap? Civic knowledge, classroom climate and expected political participation in Latin American Schools.](anexos-dm/conferencias/Youth-Engagement-Budapest.pdf){target="_blank"} Artículo presentado en “Conference. Youth activism, engagement and the development of new civic learning spaces” (Junio 24,25 y 26). Budapest, Hungría.
+
+Miranda, D. (2019). [Typologies of institutional trust: the Chilean case using ICCS 2016](http://tinyurl.com/y336rtwt){target="_blank"}. Artículo presentado en “63th annual conference of Comparative and International Education Society” (14 al 18 de Abril). San Francisco, USA.
+
+Miranda, D. & Muñoz, L. (2019). [Sexism and egalitarianism: a proposal using ICCS 2016](http://tinyurl.com/y35ajpnc){target="_blank"}. Artículo presentado en “63th annual conference of Comparative and International Education Society” (14 al 18 de Abril). San Francisco, USA.
+
+Sandoval-Hernándes, A.; Miranda, D. & Carstens, R. (2019). [Exploring ICCS 2016 to measure progress toward target 4.7](http://tinyurl.com/y6lg3mja){target="_blank"}. Artículo presentado en “63th annual conference of Comparative and International Education Society” (14 al 18 de Abril). San Francisco, USA.
+
+Miranda, D. (2018). Exploring ICCS 2016 to measure progress toward target 4.7. Artículo presentado en “Seminario: La cittadinanza e l’impegno cívico da diverse prospettive di studio”, Universidad Roma Tre (Octubre 30). Rome, Italy.
+
+Miranda, D. & Sandoval-Hernádez, A. (2018). Sophisticated but disconnected from their communities? Artículo presentado en “I dati INVALSI: uno strumento per la recerca” (Octubre 26-28). Bari, Italy.
+
+Miranda, D. (2018). [Formación para el ejercicio de la ciudadanía: investigaciones locales en población juvenil (página 7).](anexos-dm/conferencias/COES-2018.pdf){target="_blank"} Panel Presentado en “Conferencia Internacional COES 2018”. 14 al 16 de noviembre, Santiago, Chile.
+
+Miranda, D. (2018). Socialización política de las actitudes hacia la igualdad de derechos. Presentado en Conversatorio Colunga-COES (Julio 25). Santiago, Chile.
+
+Miranda, D. (2018). [Inequality and Youth Citizenship Participation: an Intergenerational approach.](anexos-dm/conferencias/ISA-2018-cert.pdf){target="_blank"} Presentado en la “XIX ISA World Congress of Sociology”. 15 al 21 de julio, Toronto, Canadá.
+
+Miranda, D. (2018). [The political socialization of attitudes towards the equality of rights from a comparative perspective.](anexos-dm/conferencias/ISA-2018-cert.pdf){target="_blank"} Presentado en la “XIX ISA World Congress of Sociology”. 15 al 21 de julio, Toronto, Canadá.
+
+Miranda, D., Castillo, J.C. & Bonilla, A. (2018). [Sobre validez de mediciones actitudinales en ICCS 2009: notas de precaución](anexos-dm/conferencias/COLMEE-2018.pdf){target="_blank"}. Artículo presentado en COLMEE 2018 (Mayo 10-12). Montevideo, Uruguay.
+
+Miranda, D. (2018). [Chair en la sesión: “Inequality, SES and Segregated Schooling: what do ILSAs tell us? (página 55).](anexos-dm/conferencias/CIES-2018.pdf){target="_blank"} En “62th annual conference of Comparative and International Education Society” (Marzo 25-29). Ciudad de México, México.
+
+Miranda, D., (2018). [Inequality and Citizenship Participation: An intergenerational approach (página 128).](anexos-dm/conferencias/CIES-2018.pdf){target="_blank"} Artículo presentado en “62th annual conference of Comparative and International Education Society” (Marzo 25-29). Ciudad de México, México.
+
+Miranda, D., (2018). [Intergeneration transmission of political inequality with focus on Latin America (página 104)](file:///Users/daniel/Dropbox%20(Personal)/FACSO/curro/en%20). Artículo presentado en “62th annual conference of Comparative and International Education Society” (Marzo 25-29). Ciudad de México, México.
+
+Sandoval-Hernandez, A.; Isac, M.; Miranda, D. (2018). [Book Launch: Teaching Tolerance in a Globalized World (página 152).](anexos-dm/conferencias/CIES-2018.pdf){target="_blank"} Book launch sesión. “62th annual conference of Comparative and International Education Society” (Marzo 25-29). Ciudad de México, México.
+
+Miranda, D. (2017). The political socialization of attitudes towards equality of rights in comparative perspective. Artículo presentado en “Conferencia Internacional COES 2017. Vínculos sociales y ciudadanía: interacciones y cohesión social” (November 08-09, 2017). Santiago de Chile.
+
+Jiménez-Moya, G., Miranda, D., Drury, J., Saavedra, P. y González, R. When bystanders care: an instrumental motive for supporting collective action. Work Presentado en the18th general meeting of the European Association of Social Psychology (EASP). Granada, Spain. July 5-8 2017.
+
+Miranda, D., (2017). [Youth Citizenship Participation: An Empirical Test of a Conceptual Model](http://tinyurl.com/z7sxu5f){target="_blank"}. Artículo presentado en “61th annual conference of Comparative and International Education Society” (Marzo 05-09). Atlanta, EEUU.
+
+Miranda, D. & Castillo, J.C. (2017). [Measurement Model and Invariance Testing of Scales Measuring Attitudes Towards Diversity in ICCS 2009 (página 34).](anexos-dm/conferencias/IRC-2017.pdf){target="_blank"} Artículo presentado en “7th IEA International Research Conference” (Junio 28-30). Prague, Czech Republic.
+
+Miranda, D. & Castillo, J.C. (2017). [Class and Status as Predictors of Inclusive Attitudes Towards Immigrants, Minorities and Gender (página 36).](anexos-dm/conferencias/IRC-2017.pdf){target="_blank"} Artículo presentado en “7th IEA International Research Conference” (Junio 28-30). Prague, Czech Republic.
+
+González, R.; Lickel, B.; Gupta, M.; Tropp, L.; Luengo, B.P.; Mora, E.; De TezanosPinto, P.; Berger, C.; Valdenegro, D.; Cayul, O.; Miranda, D.; Saavedra, P. & Bernadino, M. (2017). “Ethnic Identity development and Acculturation Preferences among Minority and Majority Youth: the role of Norms and intergroup Contact”. Conference of the Society for the Psychological Study of Social Issues, June 23-25, 2017, Albuquerque, New Mexico.
+
+Miranda, D. (2016). Transmisión intergeneracional de la desigualdad política: el caso de América Latina. Artículo presentado en “Annual Conference COES-LSE 2016: Inequalities” (November 02-04). Santiago, Chile.
+
+Miranda, D. (2016). [Unequal Background on Citizenship Participation: The Role of Civic Knowledge and Political Interest (página 325).](anexos-dm/conferencias/ISA-Forum-2016.pdf){target="_blank"} Artículo presentado en “Third ISA Forum of Sociology” (July 10-14). Vienna, Austria.
+
+Miranda, D. (2016). [Youth Citizenship Participation: An Empirical Test of a Conceptual Model (página 157)](file:////Users/daniel/Dropbox%20(Personal)/FACSO/curro/González,%20R.,%20Brown,%20R.,%20Manzi,%20J.,%20Lay,%20S.,%20Hässler,%20Miranda,%20D.,%20Zagefka,%20H.,%20Lickel,%20contact:%20The%20role%20of%20perceived%20in-group%20norms%20in%20developing%20acculturation%20preferences%20among%20majority%20members.%20Work%20Presentado%20en%20the%20Annual%20International%20annual%20meeting%20of%20the%20Society%20of%20Political%20Psychology%20(ISPP),%20Poland,%2014-16%20July,%202016.). Distributed paper at “Third ISA Forum of Sociology” (Julio 10-14). Vienna, Austria.
+
+González, R., Brown, R., Manzi, J., Lay, S., Hässler, Miranda, D., Zagefka, H., Lickel, contact: The role of perceived in-group norms in developing acculturation preferences among majority members. Work Presentado en the Annual International annual meeting of the Society of Political Psychology (ISPP), Poland, 14-16 July, 2016.
+
+Selvanathan, H.; Tropp, L.; Gonzalez, R.; Lickel, B. & Miranda, D. (2015). Religious identification and intergroup contact jointly predict attitudes toward religious outgroups. Artículo presentado en “38th ISSP Annual Scientific Meeting ” (Julio 3-6). San Diego, EEUU.
+
+Miranda, D., Castillo, J.C. & Sandoval-Hernández, A. (2015). The Civic and Civil Dimensions of Youth Citizenship Participation in Latin America: An empirical test of a conceptual model. Presented “6th IEA International Research Conference” (June 24-26). Cape Town, South Africa.
+
+Miranda, D., Castillo, J.; Bonhomme, M., Cox, C., & Bascopé, M. (2014). [Inequality in students’ citizenship participation across countries](anexos-dm/conferencias/ISA-Yokohama.pdf){target="_blank"}. Paper presentado en the “XVIII ISA World Congress of Sociology” (Julio 13-19). Yokohama, Japón.
+
+González, R., Manzi, J., Tropp, L., Lickel, B., De Tezanos, P., Bernardino, M., Saavedra, P., Miranda, D. & Lay, S. (2014). The developing of intergroup Friendship: testing a longitudinal model. Trabajo presentado en the Symposium: Testing longitudinal models of intergroup contact in ethnic diversity contexts. 17° General Meeting of the European Association of Social Psychology (EASP), Amsterdam, 9-12 de julio de 2014.
+
+Drury, J., Brown, R., González, R., & Miranda, D. (2014). Emergent social identity and group norms predict solidarity behavior in a disaster. Trabajo presentado en the Symposium: The social psychology of solidarity. 17° General Meeting of the European Association of Social Psychology (EASP), Amsterdam, 9-12 de julio de 2014
+
+González, R.; Manzi, J.; Tropp, L.; Lickel, B.; De Tezanos-Pinto; P.; Bernardino, M.; Saaverdra; P.; Miranda, D. & Lay, S. (2014). Ingroup and outgroup norms: Testing a longitudinal model of intergroup friendship. Paper presentado en “ISSP Annual Scientific Meeting”, (July 4-7). Rome, Italy.
+
+Castillo, J., Miranda, D., Bonhomme, M., Cox, C., & Bascopé, M. (2014). Civic knowledge, Classroom Climate and Political Participation in Latin America. Artículo presentado en “AERA Annual Meeting” (April 3-7). Filadelfia.
+
+Miranda, D., Castillo, J., Cox, C., Bascopé, M., & Bonhomme, J. (2013) Socioeconomic Background and Expected Political Participation in the School: Individual and Contextual Mechanism”. Artículo presentado en ”Summer School: Rising Inequalities and their impacts on Societies” - (September 2-6). Levico, Italia.
+
+Miranda, D., Castillo, J., Cox, C., Bascopé, M., & Bonhomme, J. (2013) Factors related to an open classroom climate and its impacts on civic knowledge and expected political participation. Artículo presentado en “XV Comparative Education World Congress” (Junio 24-28). Buenos Aires, Argentina.
+
+Bascopé, M., Castillo, J., Cox, C., Miranda, D., & Bonhomme, J. (2013) National Curricular Guidelines and Citizenship Education in Schools in Latin American Countries. Artículo presentado en “5th International Research Conference” (Junio 26-28). Singapur.
+
+González, R., & Miranda, D. (2013). National identity, conflict, intergroup friendship and threat predict Chilean’s prejudice toward immigrants. Group-Focused Enmity across Borders – European Approaches & Comparisons. Herrenhausen, Hannover, April 18-20, 2013.
+
+Castillo, J., Cox, C., Miranda, D., Bascopé, M., & Escobar, J. (2012) Civic knowledge and political participation. Six Latin American countries in comparative perspectives. Artículo presentado en “International Sociological Association - ISA Forum” (August 1-4). Buenos Aires.
+
+Castillo, J., Madero, I., Miranda, D. & Escobar, J. (2012) Education, equity and distributive beliefs: Evidence from the chilean case. Artículo presentado en “International Sociological Association - ISA Forum” (August 1-4). Buenos Aires.
+
+Miranda, D., & González, R. (2012). The risk of aggression toward Peruvian immigrants: The role of nationalism, perceived intergroup conflict and threat in predicting prejudice toward immigrants. Paper accepted to be Presentado en la XXX International Congress of Psychology (ICP), Cape Town, South Africa, July 22-27, 2012.
+
+Castillo, J., Cox, C., Miranda, D., Bascopé, M., & Escobar, J. (2012) Social inequality and changes in students' expected political participation in Chile. Artículo presentado en “Annual Scientific Meeting of the International Society of Political Psychology – ISPP” (July 5-9). Chicago.
+
+Castillo, J., Cox, C., Miranda, D., Bascopé, M., Madero, I. & Escobar, J. (2012) Social origin and citizenship participation in Latin American schools. Artículo presentado en “AERA Annual Meeting” (April 13-17). Vancouver.
+
+Castillo, J., Salamovich, A. & Miranda, D. (2011) Partisan cleavages and distributive preferences: A cross sectional time comparison. Poster Presentado en the “Annual Scientific Meeting of the International Society of Political Psychology – ISPP” (July 9-12). Istanbul: Bilgi University.
+
+Castillo, J., Miranda, D., & Torres, P. (2011). Authoritarianism, social dominance, and trust in public institutions. Artículo presentado en “Annual Scientific Meeting of the International Society of Political Psychology – ISPP” (July 9-12). Istanbul: Bilgi University.
+
+# Actividades académicas que desarrolla a la fecha de este currículo fuera de la Universidad de Chile
+
+Investigador Adjunto en [Núcleo Milenio de Desigualdades y Oportunidades Digitales - NUDOS](https://www.nudos.cl/sobre-nudos/){target="_blank"}. NUDOS NCS2022_046. 6 horas a la semana. Marzo de 2023 al presente.
+
+Investigador Asociado en [Centro de Estudios de Conflicto y Cohesión Social (COES)](https://coes.cl/integrantes/daniel-miranda/){target="_blank"}. ANID/FONDAP 15130009. Parte de la línea II: “Interacciones grupales e individuales”. 2 horas a la semana. Octubre 2021 al presente.
+
+Miembro del Comité Ejecutivo del Estudio Social Longitudinal de Chile ELSOC desarrollado por el Centro de Estudios de Conflicto y Cohesión Social- COES: <https://coes.cl/encuesta-panel/>. 4 horas semanales. Marzo de 2018 al presente.
+
+# Actividad profesional
+
+Además de las actividades mencionadas en la Breve Cronología Laboral (punto 4), puedo mencionar una serie de actividades profesionales que han complementado el desarrollo de mi actividad académica.
+
+Primero, puedo mencionar una serie de consultorías orientadas a la producción de informes (en estos dediqué 6 horas semanales por periodos de entre 5 y 6 meses en cada ocasión):
+
+- Sandoval-Hernández, A., Miranda, D. & Isac, M.M. (2019). [Measurement Strategy for SDG Global Indicator 4.7.1 and Thematic Indicators 4.7.4 and 4.7.5 using International Large-Scale Assessments in Education.](http://gaml.uis.unesco.org/wp-content/uploads/sites/2/2019/08/GAML6-REF-9-measurement-strategy-for-4.7.1-4.7.4-4.7.5.pdf){target="_blank"} UNESCO Institute for Statistics.
+
+- Sandoval-Hernández, A., Miranda, D., Treviño, E., & Schmelkes, S. (2019). [Is democracy overrated? Latin American students’ support for dictatorships.](https://www.iea.nl/sites/default/files/2019-10/Compass_brief_7%20Is%20Democracy%20Overrated.pdf){target="_blank"} IEA Compass: Briefs in Education: N°7. Amsterdam: International Association for the Evaluation of Educational Achievement.
+
+- Sandoval-Hernández, A. & Miranda, D.(2018). [Background paper: Global Monitoring Report 2018: Exploring ICCS 2016 to measure progress toward target 4.7](https://unesdoc.unesco.org/ark:/48223/pf0000266073){target="_blank"}. UNESCODOC. pp. 1-278.
+
+Segundo, mi participación en el [equipo de expertos](anexos-dm/extension/Expert.pdf){target="_blank"} para el desarrollo del [International Civic and Citizenship Education Study 2027](https://www.iea.nl/studies/iea/iccs/2027){target="_blank"}, desarrollado por International Association for the Evaluation of Educational Achievement (IEA). Para ello firmé un acuerdo de confidencialidad con IEA como experto externo del ciclo ICCS 2027. La dedicación es de 3 horas semanales durante el periodo de desarrollo del proyecto.
+
+Tercero, he participado en el desarrollo de una serie de talleres dirigidos hacia equipos técnicos de Ministerios de Educación de países de América Latina, como se detalla en la sección 5.1.2 de este documento.
+
+Finalmente, participé como parte del equipo de especialistas para el desarrollo del [Estudio Regional Comparativo y Explicativo ERCE 2019](https://www.unesco.org/es/articles/estudio-regional-comparativo-y-explicativo-erce-2019){target="_blank"}. Durante el año 2020 la dedicación fue de 12 horas semanales por 6 meses que duró el desarrollo de los reportes técnicos y de resultados principales.
+
+-
+
+# Administración no universitaria
+
+Editor Asociado a la revista [Large-scale Assessments in Education](anexos-dm/adicionales/LSAE-editor.pdf){target="_blank"}. Desde marzo de 2024.
+
+Miembro del Comité Editorial de [Citizenship Teaching & Learning](https://www.intellectbooks.com/citizenship-teaching-learning){target="_blank"} (Journal), Regional Editor for Latin America and the Caribbean. Marzo de 2019 al presente.
+
+Miembro del Comité Ejecutivo del Estudio Social Longitudinal de Chile ELSOC desarrollado por el Centro de Estudios de Conflicto y Cohesión Social- COES: <https://coes.cl/encuesta-panel/>. Marzo de 2018 al presente.
+
+# Sociedades artísticas, científicas, etc.
+
+Miembro activo de las siguientes Sociedades Científicas.
+
+- 2022 al presente. [International Society of Political Psychology](anexos-dm/adicionales/ISPP-membership.pdf){target="_blank"} – ISPP: <https://ispp.org/>
+
+- 2022 al presente. [Sociedad Científica de Psicología de Chile](anexos-dm/conferencias/Socio-Adjunto-SCP.pdf){target="_blank"} - SCP: <https://cienciapsicologica.cl/>
+
+- 2017 al presente [Comparative & International Education Society](anexos-dm/adicionales/CIES-membership.pdf){target="_blank"} – CIES: https://conference.cies.us/
+
+- 2012 al presente. [International Sociological Association](anexos-dm/adicionales/ISA-receipt-83891.pdf){target="_blank"} – ISA: <https://www.isa-sociology.org/en>
+
+# Reconocimiento de la obra publicada
+
+En lo que llevo de trayectoria académica, mi obra ha sido reconocida, tanto a nivel nacional como internacional.
+
+A nivel nacional, he sido invitado como presentador principal en múltiples actividades en de presentación o discusión sobre mi agenda de investigación, tales como:
+
+- El seminario “[Jóvenes y Participación Política](anexos-dm/extension/seminario-UOH.jpeg){target="_blank"}”, organizado por el Instituto de Ciencias Sociales de la Universidad de O’Higgins
+
+- El seminario “[Chile en el contexto regional: realidad y desafíos](anexos-dm/extension/academia-parlamentaria.pdf){target="_blank"}” organizado por la Academia Parlamentaria
+
+- Como invitado del programa “[Tras las líneas](https://www.youtube.com/watch?v=Octa0Xixj0k){target="_blank"}” en que se desarrolla una conversación de divulgación académica con el Profesor Manuel Antonio Garretón, Premio Nacional de Ciencias y Humanidades.
+
+- Como invitado a un [programa de TV](anexos-dm/extension/13C-entrevista.pdf){target="_blank"} sobre discusión acerca de temas de interés público.
+
+- También he participado como [profesor invitado](anexos-dm/extension/Clase-UDD-Varela.pdf){target="_blank"}, especializado en ciudadanía juvenil.
+
+- El Centro de Estudios de Conflicto y Cohesión Social COES ha reconocido mi trayectoria. He participado en este centro en diversos roles:
+
+  - Como asistente de la línea de “*Relacional interpersonales e Intergrupales*”, luego como asistente para el desarrollo de la encuesta COES 2014.
+
+  - Posteriormente como asistente en el Estudio Longitudinal Social de Chile-ELSOC, hasta el 2018.
+
+  - Como investigador adjunto del centro y miembro del equipo técnico del ELSOC.
+
+  - En 2021 fui promovido a la categoría de [Investigador Asociado](anexos-dm/cronologia-laboral/Carta-Miranda-Asociado-COES.pdf){target="_blank"}, rol que requiere una validación curricular por parte de ANID.
+
+A nivel internacional, también he sido invitado a participar de diversas actividades que reconocen mi *expertise*.
+
+- Tempranamente en mi carrera, recibí el reconocimiento a artículos desarrollados en el marco de mi tesis doctoral:
+
+  - Una versión previa del artículo: Miranda, D. (2023). Socio-economic inequalities of families and their differential impact on types of political participation in the new generation of 24 countries (Desigualdades socio-económicas familiares y su impacto diferencial sobre tipos de participación política de nuevas generaciones en 24 países). *International Journal of Social Psychology*, 1-40. 10.1080/02134748.2023.2239576. Reconocido como [*Outstanding Early Career Paper Award*](anexos-dm/distinciones/Early-Career-CANDE.pdf){target="_blank"} por el Special Interest Group: Large Scale Cross-National Studies en la 62th Comparative and International Education Society conference, 2017.
+
+  - Una versión previa del artículo: Miranda, D.; Castillo, J. & Sandoval-Hernández, A. (2020). Young Citizens Participation: A Empirical Testing of a Conceptual Model. *Youth & Society*. Vol.52, 2. Pp: 251-271. (ISI). Reconocido como [*Outstanding Early Career Paper Award*](anexos-dm/distinciones/Early-Career-LSCE.pdf){target="_blank"} por el Special Interest Group: Citizenship and Democratic Education en la 61th Comparative and International Education Society conference, 2018.
+
+- [Profesor invitado](anexos-dm/extension/Guest-Lecture-on-Political-Participation-for-Course-Civic-Education-Ellen-Claes-KU-Leuven.pdf){target="_blank"} en la cátedra sobre educación cívica, curso dirigido por la Profesora Ellen Claes del Centre for Political Science Research de la KU Leuven.
+
+- Invitado por el Profesor Jan Germen Janmaat del UCL Institute of Education en Reino Unido a escribir un capítulo sobre educación cívica en el [*Handbook of Education and Democracy*](anexos-dm/extension/book-Janmaat.pdf){target="_blank"}, publicado por Edward Elgar en 2025 (Research Handbook on Education and Democracy, eds. J. G. Janmaat y A. B. Dijkstra).
+
+- He participado en el desarrollo de capítulos de libro y coedición de libros publicados en editoriales de gran relevancia como: *Springer, Oxford University Press, Routledge, Cambridge University Press, Editorial Elgar o el Fondo de Cultura Económica*.
+
+- [Invitado como experto](anexos-dm/extension/Expert.pdf){target="_blank"} para el desarrollo del Estudio Internacional de Educación Cívica y Ciudadana ICCS, [versión 2027](https://www.iea.nl/studies/iea/iccs/2027){target="_blank"}.
+
+- [Invitado como Editor Asociado](anexos-dm/adicionales/LSAE-editor.pdf){target="_blank"} a la revista Large-scale Assessment in Education.
+
+Para analizar la productividad científica revisé las citaciones registradas en mi perfil de Google Académico (al 19 de noviembre de 2026). El perfil registra un total de 2.129 citas (1.505 desde 2021), un índice h de 22 (21 desde 2021) y un índice i10 de 33 (31 desde 2021). Es decir, 22 de mis publicaciones han sido citadas al menos 22 veces y 33 al menos 10 veces. En agosto de 2024, al momento de mi jerarquización anterior, el total era de 1.554 citas, con índice h de 18 e índice i10 de 21. ORCID: https://orcid.org/0000-0002-3143-8502.
+
+# Referencias
+
+## Nacionales
+
+-   **Dr. Juan Carlos Castillo Valenzuela**, Profesor Asociado, Departamento de Sociología, Facultad de Ciencias Sociales, Universidad de Chile. E-mail: juancastillov\@uchile.cl
+-   **Dr. Cristian Cox Donoso**, Profesor Titular, Facultad de Educación, Universidad Diego Portales. E-mail: cristian.cox\@udp.cl
+-   **Dr. Patricio Cumsille Eltit**, Profesor Titular, Escuela de Psicología, Facultad de Ciencias Sociales, Pontificia Universidad Católica de Chile. E-mail: pcumsill\@uc.cl
+-   **Dra. Emmanuelle Barozet**, Profesora Titular, Departamento de Sociología, Facultad de Ciencias Sociales, Universidad de Chile. E-mail: ebarozet\@uchile.cl
+-   **Dra. Bernadette Paula Luengo-Kanacri**, Profesora Asociada, Escuela de Psicología, Pontificia Universidad Católica de Chile. E-mail: bluengo\@uc.cl
+-   **Dr. Roberto González Gutiérrez**, Profesor Titular, Escuela de Psicología, Pontificia Universidad Católica de Chile. E-mail: rgonzale\@uc.cl
+
+## Internacionales
+
+-   **Dr. Andrés Sandoval-Hernández**, Professor, Head of Department, Department of Education, University of Bath. E-mail: ash22\@bath.ac.uk
+-   [\[OPCIONAL: cartas de referencia internacionales (por ejemplo, J. G. Janmaat, UCL; M. M. Isac, KU Leuven), como en el modelo\]]{bg-color="#FFFF00"}
+
+# Creatividad académica
+
+A continuación, se describe la agenda principal de investigación y los estudios diseñados para abordar las preguntas de investigación, con la finalidad de describir mi creatividad académica personal y de proyectos en los que he colaborado activamente.
+
+Mi agenda principal de investigación está orientada a desentrañar el proceso por medio del cual las nuevas generaciones adquieren competencias para la ciudadanía. Particularmente, profundiza en la comprensión del rol que juegan las características sociopolíticas familiares, condiciones socioeconómicas de origen y las actividades de formación política en la escuela para el desarrollo de actitudes, creencias, conocimientos y comportamientos relevantes para el ejercicio de su rol como ciudadanos. (Wasburn & Covert, 2017)(Smets & van Ham, 2013)(Janoski & Wilson, 1995)(Bandura, 1969)(Brady et al., 2015)(Verba et al., 2003)
+
+(Castillo et al., 2015; Quintelier, 2015)(Miranda, 2018) (Janmaat & Hoskins, 2021) (Dahlgaard, 2018; York, 2019)(Dahlgaard, 2018; McDevitt & Chaffee, 2002) (Tham & Martínez, 2018; Zúñiga et al., 2020) (Cox & Castillo, 2015)(Castillo et al., 2014)(Deimel et al., 2020; Hoskins et al., 2017)
+
+Para abordar esta agenda, se hace uso de los datos disponibles que permiten aspectos de las preguntas planteadas. Entre estos datos se encuentra el Estudio Internacional de Educación Cívica y Ciudadana ICCS 2009, 2016 y 2022, que proveen de información muy valiosa sobre jóvenes y procesos de socialización escolar. Una segunda fuente de datos, es el estudio PACES (Panel de Ciudadanía Escolar desarrollado en el marco del Fondecyt regular n°1181239, en que participé como co-investigador). Este evaluó a más de 1700 estudiantes de 2º de Enseñanza Media y a alrededor de 700 de su padres en una serie de aspectos relativos a la socialización política en su primera ola. Sin embargo, el estallido social interrumpió abruptamente el campo y luego, la pandemia impidió el normal desarrollo de las siguientes mediciones. Se logró una medición adicional en 4º Medio de 350 estudiantes. Adicionalmente, en el marco del proyecto Fondecyt de iniciación n°11190508, que tuve a cargo, desarrollamos un estudio panel de cinco momentos con 1065 adultos jóvenes entre 18 y 30 años que participaron en todas las mediciones.
+
+Adicionalmente, me adjudiqué un proyecto FONDECYT regular por 4 años (n°1240922), junto a Nicolás Angelcos (Universidad de Chile), Paula Luengo-Kanacri (Pontificia Universidad Católica de Chile), Felipe Sánchez-Barría (Pontificia Universidad Católica de Chile y Yonatan Encina Agurto (Universidad de Talca). Este proyecto permitirá desarrollar dos estudios para responder a preguntas sobre la socialización política en el hogar y en la educación media. El primer estudio será cualitativo y se realizarán entrevistas a jóvenes y sus padres o cuidadores para comprender los procesos de socialización política. También se desarrollarán herramientas de medición más precisas para evaluar dichos procesos, a partir del estudio y un análisis teórico/bibliométrico para documentar modelos de educación ciudadana, los ejes principales e identificar escalas/instrumentos que permitan evaluar dichos ejes. El segundo estudio será un panel durante tres años para medir anualmente a estudiantes y padres, constituyéndose en un panel paralelo de jóvenes y adultos. Adicionalmente, se propone caracterizar la educación ciudadana en los colegios a partir de docentes y documentos relevantes.
+
+En paralelo, participo como coinvestigador del FONDECYT regular 1240960 (a cargo de la Profesora Sofía Donoso, Departamento de Sociología, Universidad de Chile), titulado: *Aprendizaje político en movimiento sociales: ¿portadores individuales, organizacionales y generacionales?* En este se busca: caracterizar el rol de los/las activistas históricos/as en la transmisión de aprendizajes políticos en movimientos sociales, identificar cómo los aprendizajes políticos se expresan en las formas y prácticas organizativas, discursos y demandas, y relación con la institucionalidad política de las organizaciones de movimiento social; y analizar las diferencias generacionales y los aprendizajes generacionales en cuanto a las formas de organizarse, demandas de política pública y relación con la institucionalidad política. Para ello se propuso dos estudios cualitativos (relatos de vida y entrevistas con activistas) y un abordaje cuantitativo (análisis de datos secundarios de encuestas como el CEP, Latinobarómetro, LAPOP o ELSOC).
+
+Adicionalmente, mi participación como Investigador Asociado al Centro de Estudios de Conflicto y Cohesión Social COES conlleva una serie de actividades de investigación para los próximos años. Primero, en mi rol de miembro del Equipo Técnico del Estudio Longitudinal Social de Chile, que desarrolla su séptima ola de medición (2016 al 2024) implica una serie de actividades, como: desarrollo del reporte longitudinal que se presenta cada nuevo año, planificación de la licitación de las nuevas mediciones, ajustes a la encuesta, actividades de formación en técnicas longitudinales a la comunidad COES y otros interesados, desarrollo de publicaciones técnicas y sustantivas.
+
+Finalmente, participo del Núcleo Milenio de Desigualdades y Oportunidades Digitales NUDOS. En este Centro asociativo desarrollo el proyecto: “Digital Citizen Participation in Chile: description of gaps and their relationship with other forms of participation”. Este proyecto tiene por objetivos: Explorar y mapear los niveles de Ciudadanía Digital en estudiantes, examinar las brechas de Ciudadanía Digital en términos de logro académico, género, nivel educacional de la familia, tipo de colegio y ruralidad y examinar la relación entre los niveles de Participación Ciudadanía Digital y Participación Ciudadana Analógica.
+
+Es importante mencionar que, tanto los datos secundarios como aquellos que se generan en las distintas investigaciones se han utilizado para la preparación de clases, ejercicios prácticos y problemas aplicados de programación. Esto responde al principio de acercar la docencia a problemas concretos abordados en las distintas investigaciones.
+
+# Jerarquización de proyectos
+
+Abordando mi línea principal de investigación, socialización política juvenil y transmisión intergeneracional de la desigualdad política, he participado en múltiples proyectos concursables. Actualmente, ocupo el rol de Investigador Principal del proyecto FONDECYT regular 1240922, titulado: “*Actitudes y comportamiento político juvenil: desigualdad, estilos de socialización escolar e influencias intergeneracionales*”. Este proyecto se desarrollará entre abril de 2024 y marzo de 2028. Entre noviembre de 2019 y octubre de 2022 dirigí como Investigador Principal del proyecto FONDECYT de Iniciación 11190508, titulado: “*Participación Ciudadana Juvenil: entre la reproducción social y la socialización política*”. También participo como coinvestigador del FONDECYT regular 1240960 (a cargo de la Profesora Sofía Donoso, Departamento de Sociología, Universidad de Chile), titulado: *Aprendizaje político en movimiento sociales: ¿portadores individuales, organizacionales y generacionales?*
+
+Adicionalmente, he participado como coinvestigador en el proyecto FONDECYT regular 1181239, titulado: “*Socialización política y educación para la ciudadanía- El rol de la familia y de la escuela*”, entre abril de 2018 y marzo de 2021. También en el proyecto FONDECYT regular 1120630, titulado: “*Socialización política y experiencia escolar- Chile en contexto internacional*”, entre abril de 2012 y marzo de 2015. Los resultados de estos proyectos han sido publicados en revistas científicas con revisión pares, capítulos de libros y también han generado libros. Adicionalmente, los resultados han sido presentados en múltiples conferencias nacionales e internacionales.
+
+Otro proyecto relevante en el que he participado es el Centro de Estudios de Conflicto y Cohesión Social– COES. Este centro es una iniciativa financiada por FONDAP-ANID y reúne a más de 40 investigadores de la Universidad de Chile y Universidad Católica, como instituciones principales, y Universidad Diego Portales y Adolfo Ibañez como instituciones asociadas. En el inicio participé como asistente de investigación de la línea de Interacciones Grupales a Individuales y como asistente en el desarrollo de la Encuesta Nacional de Cohesión Social 2014. Luego participé como asistente de investigación del Estudio Social Longitudinal Social de Chile entre el 2015 y 2018. Posterior a ello me integré como Investigador adjunto de la línea de Interacciones Grupales a Individuales, hasta septiembre de 2021. Finalmente, me integré como Investigador Asociado a la misma línea, hasta la actualidad. COES ha propiciado la colaboración académica orientadas al trabajo interdisciplinario en ciencias sociales en Chile, junto con exigentes metas de publicación de alto impacto. En este marco mi rol ha estado ligado al desarrollo de publicaciones científicas, elaboración de reportes de resultados de los estudios en los que he participado, desarrollo de talleres de formación en uso y análisis de datos cuantitativos y diseminación a la comunidad de los resultados del centro. En la línea de mi participación en proyectos colaborativos, también participo en el Núcleo Milenio en Oportunidades y Desigualdades Digitales-NUDOS (20232025), donde soy investigador adjunto. En este proyecto vinculamos formación ciudadana con desigualdades digitales.
+
+Es relevante mencionar mi participación en proyectos orientados al desarrollo de libros editados. El primero de ellos fue mi participación como co-investigador en el proyecto “Teaching Tolerance in a Globalized World” desarrollado entre 2017 y 2018, que desembocó en un libro publicado por la editorial Springer con el mismo título del proyecto. El segundo fue el proyecto: “Good Citizenship Around the World”, financiado por International Association for the Educational Achievement - IEA. Este se desarrolló entre 2019 y 2020. También tuvo como producto principal un libro con el mismo título. Finalmente, desarrollamos el proyecto "Environmental Knowledge and Environmental Attitudes among Secondary School Student", financiado por IEA. Este se desarrolló entre diciembre de 2022 y septiembre de 2024 y concluyó con la publicación del libro de acceso abierto Knowledge and Willingness to Act Pro-Environmentally: Perspectives from IEA TIMSS 2019 and ICCS 2016 Data (Springer, 2025), en el que soy autor del capítulo 9, “Inequalities on Willingness to Act Pro-environmentally”.
+
+Anterior a los proyectos descritos participé como asistente de Investigación en Proyecto FONDECYT Iniciación N°11121203, titulado: “Social justice and citizenship participation: An International comparison with focus on the case of Chile”, dirigido por el Investigador Principal, Profesor Juan Carlos Castillo Valenzuela, entre marzo de 2013 y diciembre de 2013. También participé como asistente de Investigación en Laboratorio de Psicología Social, Escuela de Psicología UC, a cargo del Investigador Responsable, Profesor Roberto González Gutiérrez, entre diciembre de 2009 y febrero de 2014. Adicionalmente, participé como tesista en el proyecto FONDECYT Regular n°1070833, titulado: “*Inmigrantes en Chile: antecedentes psicológicos de las preferencias aculturativas de los chilenos”*, a cargo del profesor Roberto González Gutiérrez, entre marzo de 2010 y marzo de 2011.
+
+# Aspectos globales de la obra expuesta
+
+En lo que llevo de trayectoria académica, mi obra ha sido reconocida, tanto a nivel nacional como internacional.
+
+## Nivel nacional
+
+A nivel nacional, he sido invitado como presentador principal en múltiples actividades en de presentación o discusión sobre mi agenda de investigación, tales como el seminario “[Jóvenes y Participación Política](anexos-dm/extension/seminario-UOH.jpeg){target="_blank"}”, organizado por el Instituto de Ciencias Sociales de la Universidad de O’Higgins; el seminario “[Chile en el contexto regional: realidad y desafíos](anexos-dm/extension/academia-parlamentaria.pdf){target="_blank"}” organizado por la Academia Parlamentaria, como invitado del programa “[Tras las líneas](https://www.youtube.com/watch?v=Octa0Xixj0k){target="_blank"}” en que se desarrolla una conversación de divulgación académica con el Profesor Manuel Antonio Garretón, Premio Nacional de Ciencias y Humanidades; y más recientemente, como invitado a un [programa de TV](anexos-dm/extension/13C-entrevista.pdf){target="_blank"} sobre discusión acerca de temas de interés público. También he participado como [profesor invitado](anexos-dm/extension/Clase-UDD-Varela.pdf){target="_blank"}, especializado en ciudadanía juvenil. También me parece importante destacar que el Centro de Estudios de Conflicto y Cohesión Social COES ha reconocido mi trayectoria. He participado en este centro en diversos roles, primero como asistente de la línea de “*Relacional interpersonales e Intergrupales*”, luego como asistente para el desarrollo de la encuesta COES 2014, posteriormente como asistente en el Estudio Longitudinal Social de Chile-ELSOC, hasta el 2018. Una vez que terminé mi doctorado fui promovido al rol de investigador adjunto del centro y miembro del equipo técnico del ELSOC. Finalmente, en 2021 fui promovido a la categoría de Investigador Asociado, rol que requiere una validación curricular por parte de ANID. En ese sentido, el centro ha reconocido mi trayectoria y aporte de manera explícita, promoviéndome a roles más relevantes a lo largo del tiempo. Prueba de ello es la [carta de invitación](anexos-dm/cronologia-laboral/Carta-Miranda-Asociado-COES.pdf){target="_blank"} enviada en ese momento. Finalmente, me parece relevante destacar la adjudicación de un proyecto FONDECYT de iniciación, ejecutado entre 2019 y 2022 (n°11190508) y un FONDECYT regular, a ejecutarse entre 2024 y 2028 (n°1240922). Ambos concursos son altamente competitivos y se evalúan por pares, lo que implica un reconocimiento a la investigación previa y una apuesta al desarrollo de investigación hacia adelante.
+
+## Nivel internacional
+
+A nivel internacional, también he sido invitado a participar de diversas actividades que reconocen mi *expertise*. Tempranamente en mi carrera, recibí el reconocimiento a artículos desarrollados en el marco de mi tesis doctoral ([2018](anexos-dm/distinciones/Early-Career-CANDE.pdf){target="_blank"} y [2019](anexos-dm/distinciones/Early-Career-LSCE.pdf){target="_blank"}). Segundo, he participado de la publicación múltiples artículos en revistas prestigio (ver sección 8 de difusión y comunicaciones), como: *Youth & Society, International Journal of Social Psychology, Journal of Applied Social Psychology, Political Psychology, European Journal of Social Psychology, Journal of Youth Studies, Computers in Human Behavior, Group Processes & Intergroup Relations, Child Development, International Journal of Educational Development, Theory and Research in Social Education, Citizenship Teaching and Learning, Frontiers in Sociology, Journal of Education, Citizenship and Social Justice, Revista Latinoamericana de Ciencias Sociales, Revista de Educación, Psykhé, Revista de Sociología*.
+
+Tercero, he participado de la coedición de tres libros y múltiples capítulos de libro publicados por importantes editoriales como: *Springer, Oxford University Press, Routledge, Cambridge University Press, Editorial Elgar o el Fondo de Cultura Económica*. Un libro a destacar es el libro *Teaching Tolerance in a Globalized World* (coeditado con Andrés Sandoval Hernández y María Magdalena Isac) que estuvo entre los diez libros más descargados de Springer Open en 2018 ([más de 70 000 descargas y 36 citaciones](https://link.springer.com/book/10.1007/978-3-319-78692-6){target="_blank"} hasta la fecha). También fui invitado, por el Profesor Jan Germen Janmaat del UCL Institute of Education en Reino Unido, a escribir un capítulo sobre educación cívica en el [*Handbook of Education and Democracy*](anexos-dm/extension/book-Janmaat.pdf){target="_blank"}, publicado por Edward Elgar en 2025 (Research Handbook on Education and Democracy, eds. J. G. Janmaat y A. B. Dijkstra). Cuarto, durante mi trayectoria he participado de la comunidad que estudia educación cívica y ciudadana usando datos de gran escala, particularmente el Estudio Internacional de Educación Cívica y Ciudadana ICCS en sus versiones 2009, 2016 y 2022; desarrollado por la IEA (International Association for the Educational Achievement). Para el desarrollo de la próxima [versión 2027](https://www.iea.nl/studies/iea/iccs/2027){target="_blank"} he sido [invitado a participar como parte del equipo de expertos](anexos-dm/extension/Expert.pdf){target="_blank"} para el desarrollo de los instrumentos que serán aplicados en la siguiente ronda. Finalmente, he participado como [Profesor invitado](anexos-dm/extension/Guest-Lecture-on-Political-Participation-for-Course-Civic-Education-Ellen-Claes-KU-Leuven.pdf){target="_blank"} en la cátedra sobre educación cívica, curso dirigido por la Profesora Ellen Claes del Centre for Political Science Research de la KU Leuven. Finalmente, he sido invitado a participar como Editor asociado en la revista *Large-scale Assessment in Education*, lo que reconoce mi expertise en investigación metodológica en temas de medición educacional en general y de investigación en ciudadanía juvenil en particular.
+
+Desde mi jerarquización anterior (agosto de 2024), esta trayectoria se ha consolidado con cinco artículos en revistas indexadas entre 2025 y 2026 (entre ellos, como autor principal en Journal of Politics in Latin America y Psykhe, y como coautor en The Sociological Quarterly, Applied Research in Quality of Life y Peace and Conflict: Journal of Peace Psychology), cuatro capítulos en libros de editoriales internacionales (Springer, Routledge y Edward Elgar, 2025), mi participación como experto externo en el desarrollo del ciclo ICCS 2027 de la IEA y la dirección, como investigador responsable, del proyecto FONDECYT Regular n.° 1240922 (2024-2028).
+
+# Antecedentes adicionales
+
+Software de análisis estadístico y reporte: utilizo y enseño herramientas que permite el desarrollo de análisis estadístico y reporte dinámico:
+
+- R/Rstudio: para análisis de datos y visualización
+
+- Latex / Markdown: para escritura académica reproducible (en texto plano)
+
+- Knitr: para generar documentos reproducibles en pdf/HTML.
+
+- Xaringan (Markdown/css) y Quarto para generación de presentaciones
+
+Idiomas: Inglés (avanzado)
+
+Evaluador de postulación a becas y proyectos:
+
+- Evaluador Concurso FONDECYT de Iniciación en Investigación 2025 (evaluación emitida en septiembre de 2024).
+
+- [\[COMPLETAR: otras evaluaciones de proyectos o becas 2025-2026\]]{bg-color="#FFFF00"}
+
+- [Evaluador Concurso FONDECYT de Iniciación en Investigación 2023](anexos-dm/adicionales/CERTIFICADO-inicio-2023.pdf){target="_blank"}, en el grupo de estudio Educación Inicial-Escolar.
+
+- [Evaluador Concurso FONDECYT Regular en Investigación 2021](anexos-dm/adicionales/CERTIFICADO-regular2021.pdf){target="_blank"}, en el grupo de estudio Sociología y Ciencias de la Información.
+
+- [Evaluador Concurso FONDECYT Regular en Investigación 2019](anexos-dm/adicionales/CERTIFICADO-regular2019.pdf){target="_blank"}, en el grupo de estudio Sociología y Ciencias de la Información.
+
+- [Evaluador Concurso FONDECYT de Iniciación en Investigación 2017](anexos-dm/adicionales/CERTIFICADO-inicio-2017.pdf){target="_blank"}, en el grupo de estudio Sociología y Ciencias de la Información.
+
+- Evaluador de proyectos presentados al Concurso Mini-COES 2020, [2021](anexos-dm/adicionales/Solicitud-evaluacion-XIV-Minicoes-2021.pdf){target="_blank"}, 2022 y 2023 y [2024](anexos-dm/adicionales/mini-coes-2024.pdf){target="_blank"}, del Centro de Estudios de Conflicto y Cohesión Social COES
+
+- Evaluador de Becas de Magíster ([2021](anexos-dm/adicionales/beca-coes-2021.pdf){target="_blank"}, [2022](anexos-dm/adicionales/beca-coes-2022.pdf){target="_blank"} y [2023](anexos-dm/adicionales/beca-coes-2023.pdf){target="_blank"}) y postdoctorado ([2021](anexos-dm/adicionales/beca-postdoccoes-2021.pdf){target="_blank"} y [2024](anexos-dm/adicionales/beca-postdoccoes-2024.pdf){target="_blank"}) para el Centro de Estudios de Conflicto y Cohesión Social COES.
+
+Revisor ad-hoc de revistas científicas:
+
+- Journal of Youth Studies (Reino Unido)
+
+- Youth & Society (Estados Unidos)
+
+- Journal of Community Psychology (Estados Unidos)
+
+- YOUNG (Finlandia)
+
+- Acta Politica (Países Bajos)
+
+- Large-scale Assessment in Education (Estados Unidos)
+
+- Educational Assessment, Evaluation and Accountability (Países Bajos)
+
+- Revista de Estudios Sociales (Colombia)
+
+- Revista Formación Universitaria (Chile)
+
+- Psykhé (Chile)
+
+# Resumen
+
+Indique si entrega o no, información en cada capítulo y sub-capítulo del currículo, marcando con una letra equis (x) la línea respectiva.
+
+| Sí | No | Nº actividades |
+|----|----|----------------|
+| X | | 1\. INFORMACION PERSONAL: (es obligatoria) |
+| X | | 2\. ESTUDIOS REALIZADOS: |
+| X | | 2.1. ESTUDIOS SUPERIORES UNIVERSITARIOS: (es obligatoria) |
+| X | | 2.2. ACTIVIDADES DE PERFECCIONAMIENTO: |
+| X | | 3\. DISTINCIONES OBTENIDAS |
+| X | | 3.1. BECAS: |
+| X | | 3.2. PREMIOS Y OTRAS DISTINCIONES: |
+| X | | 4\. CRONOLOGIA. LABORAL: (es obligatoria) |
+| X | | 5\. ACTIVIDADES ACADEMICAS: |
+| X | | 5.1. DOCENCIA |
+| X | | 5.1.1. ASIGNATURAS DOCENTES: |
+| X | | 5.1.2. CREATIVIDAD DOCENTE: |
+| X | | 5.1.3. |
+| X | | A.- TESIS DIRIGIDAS: |
+| | X | B.- MEMORIAS DIRIGIDAS: |
+| X | | 5.2. INVESTIGACION: |
+| | X | 5.3. CREACION: |
+| X | | 5.4. EXTENSION Y DIVULGACION: |
+| X | | 5.5. ADMINIST. UNIVERSITARIA Y DIRECCION ACADEMICA: |
+| X | | 6\. FORMACION ACADEMICA PROPIA: |
+| | X | 7\. FORMACION DE NUEVOS ACADEMICOS: |
+| X | | 8\. DIFUSION Y COMUNICACIONES |
+| X | | 8.1. LIBROS Y PUBLICACIONES PERIODICAS |
+| X | | 8.1.1 LIBROS Y MONOGRAFIAS: |
+| X | | 8.1.2. CAPITULOS DE LIBROS: |
+| X | | 8.1.3. REVISTAS NACIONALES: |
+| X | | 8.1.4. REVISTAS INTERNACIONALES: |
+| X | | 8.2. OTROS ESCRITOS E INFORMES: |
+| X | | 8.3. PONENCIAS A CONGRESOS |
+| | X | 8.3.1. PONENCIAS SOMETIDAS A REFERATO: |
+| X | | 8.3.2. OTRAS PONENCIAS NACIONALES: |
+| X | | 8.3.3. OTRAS PONENCIAS INTERNACIONALES: |
+| X | | 9\. ACTIVIDADES ACADEMICAS FUERA DE LA U. DE CHILE: |
+| X | | 10\. DESARROLLO PROFESIONAL: |
+| X | | 11\. ADMINISTRACION NO-UNIVERSITARIA: |
+| X | | 12\. SOCIEDADES ARTISTICAS, CIENTIFICAS, ETC.: |
+| X | | 13\. RECONOCIMIENTO DE LA OBRA PUBLICADA: |
+| X | | 14\. REFERENCIAS: |
+| X | | 15\. CREATIVIDAD ACADEMICA: |
+| X | | 16\. JERARQUIZACION DE PROYECTOS: |
+| X | | 17\. ASPECTOS GLOBALES DE LA OBRA EXPUESTA: |
+| X | | 17.1. NIVEL NACIONAL: |
+| X | | 17.2. NIVEL INTERNACIONAL: |
+| X | | 18\. ANTECEDENTES ADICIONALES: |
+| X | | 19\. RESUMEN CURRICULAR |
+
+**Fecha:** [\[COMPLETAR\]]{bg-color="#FFFF00"} de 2026        **Firma:**

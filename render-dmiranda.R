@@ -1,0 +1,6 @@
+# Compila el CV y los anexos de Daniel Miranda (Quarto)
+setwd("~/Dropbox (Personal)/FACSO/curro/Asociado")
+system("quarto render cv-dmiranda.qmd > render_cv.log 2>&1")
+system("quarto render anexos-dmiranda.qmd --to pdf > render_ax.log 2>&1")
+cat("Listo: cv-dmiranda.html, cv-dmiranda.pdf y anexos-dmiranda.pdf\n")
+writeLines("FIN", "render_fin.log")
