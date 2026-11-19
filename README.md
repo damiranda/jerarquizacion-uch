@@ -11,6 +11,17 @@ Currículo normalizado (Carrera Académica Ordinaria) del Prof. Daniel Miranda F
 | `anexos-dm/` | Respaldos enlazados desde el CV, organizados por sección (estudios, distinciones, docencia, memorias, investigación, extensión, conferencias, etc.) |
 | `encabezado.png`, `_extensions/` | Encabezado oficial (compartido con el modelo) y filtro propio `highlight-dm.lua` |
 
+Links de acceso al CV:
+
+-   [CV web / html](https://damiranda.github.io/Asociado/cv-dmiranda.html)
+-   [CV pdf](https://damiranda.github.io/Asociado/cv-dmiranda.pdf)
+
+Anexos (solo en pdf, ya que en desde CV html se puede acceder a todos los documentos directamente):
+
+-   [Anexo pdf](https://damiranda.github.io/jerarquizacion-uch/anexos-dmiranda.pdf) 
+
+También es posible revisar más antecedentes académicos en mi página personal, [en camino]()
+
 ## Cómo generar los documentos
 
 Requiere Quarto 1.7.29 o superior (por la extensión `highlight-text`) y una instalación de LaTeX (por ejemplo `quarto install tinytex`). La fuente es Times New Roman 12, como exige la Comisión.
