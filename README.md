@@ -1,18 +1,29 @@
-# CV Normalizado Universidad de Chile - Juan Carlos Castillo
+# CV Normalizado Universidad de Chile - Daniel Miranda
 
-En este repositorio se puede acceder al CV Normalizado en formato de la Universidad de Chile del Profesor Juan Carlos Castillo, del Departamento de Sociología - FACSO
+Currículo normalizado (Carrera Académica Ordinaria) del Prof. Daniel Miranda Fuenzalida, Departamento de Psicología, FACSO, para la solicitud de re-jerarquización a Profesor Asociado. Sigue el modelo de [jerarquizacion-uch](https://github.com/juancarloscastillo/jerarquizacion-uch) (J. C. Castillo): CV escrito en Markdown/Quarto, con salida en html y pdf, y con links directos a los documentos de respaldo.
 
-El objetivo es poder hacer una revisión de las secciones con sus respaldos de manera más eficiente, accediendo a ellos mediante links.
+## Archivos
 
-El CV está generado a partir de lenguaje Markdown en entorno Quarto, lo que permite generar salidas en distintos formatos. La visualización recomendada es en html, ya que se puede ver directo en el navegador, no requiere bajar ningún archivo adjunto ya que se accede a ellos mediante links, y evita el gasto de papel. También se puede revisar en formato tradicional pdf, desde donde también se puede acceder directamente a los links de respaldo. Y si finalmente se desea optar por el formato impreso, se puede bajar el pdf e imprimirlo.
+| Archivo | Contenido |
+|---|---|
+| `cv-dmiranda.qmd` | CV normalizado (secciones 1 a 19 del formato oficial) |
+| `anexos-dmiranda.qmd` | Documento de anexos en pdf: portada, índice y selección de respaldos en el orden del CV (máximo 50 páginas) |
+| `anexos-dm/` | Respaldos enlazados desde el CV, organizados por sección (estudios, distinciones, docencia, memorias, investigación, extensión, conferencias, etc.) |
+| `encabezado.png`, `_extensions/` | Encabezado oficial (compartido con el modelo) y filtro propio `highlight-dm.lua` |
 
-Links de acceso al CV:
+## Cómo generar los documentos
 
--   [CV web / html](https://juancarloscastillo.github.io/jerarquizacion-uch/cv-jcc.html)
--   [CV pdf](https://juancarloscastillo.github.io/jerarquizacion-uch/cv-jcc.pdf)
+Requiere Quarto 1.7.29 o superior (por la extensión `highlight-text`) y una instalación de LaTeX (por ejemplo `quarto install tinytex`). La fuente es Times New Roman 12, como exige la Comisión.
 
-Anexos (solo en pdf, ya que en desde CV html se puede acceder a todos los documentos directamente):
+```bash
+quarto render cv-dmiranda.qmd        # genera cv-dmiranda.html y cv-dmiranda.pdf
+quarto render anexos-dmiranda.qmd --to pdf
+```
 
--   [Anexo pdf](https://juancarloscastillo.github.io/jerarquizacion-uch/anexos.pdf) 
+## Pendientes
 
-También es posible revisar más antecedentes académicos en mi página personal, [jc-castillo.com](https://jc-castillo.com/)
+Los textos resaltados (amarillo en html, rojo en pdf) (`{bg-color="#FFFF00"}`) marcan datos por completar o verificar. Para la versión final se puede apagar el resaltado de una vez reemplazando `#FFFF00` por `#ffffff`, como hizo el modelo.
+
+## Publicación
+
+Los links a respaldos son relativos (`anexos-dm/...`): funcionan en el html publicado y en el pdf si se descarga junto con la carpeta. Para que los links del pdf funcionen al enviarlo solo, una vez publicado el repositorio en GitHub Pages se pueden reemplazar por la URL absoluta (por ejemplo `https://USUARIO.github.io/REPOSITORIO/anexos-dm/...`).
